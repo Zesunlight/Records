@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
+# 3blue1brown
 # https://youtu.be/HEfHFsfGXjs
+# https://www.bilibili.com/video/av40873215
 
 k = 10 ** 2
 v = 1
