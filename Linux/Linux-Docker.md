@@ -14,7 +14,7 @@
 
 ## Docker
 
-![lxc docker](pictures/LXC Docker.png)
+![lxc docker](pictures/LXC-Docker.png)
 
 - 借助 Docker ，可将容器当做重量轻、模块化的虚拟机使用。同时还将获得高度的灵活性，从而实现对容器的高效创建、部署及复制，并能将其从一个环境顺利迁移至另一个环境。
 - Docker 技术使用 Linux 内核和内核功能（例如 Cgroups 和 namespaces）来分隔进程，以便各进程相互独立运行。
