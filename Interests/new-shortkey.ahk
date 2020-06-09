@@ -25,7 +25,7 @@ f & l:: Send +{right}
 
 ; short message
 ::/qm::2714616793@qq.com
-::/pn::13281838740
+::/pn::1313131313
 ::/py::python3
 
 ; Ctrl+shift+c  copy file path
