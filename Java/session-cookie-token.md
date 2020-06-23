@@ -5,7 +5,7 @@
 - Cookie是客户端保存用户信息的一种机制，用来记录用户的一些信息
 - 当接收到客户端发出的 HTTP 请求时，服务器可以发送带有响应的 `Set-Cookie` 标头，Cookie 通常由浏览器存储，然后将 Cookie 与 HTTP 标头一同向服务器发出请求。
 
-![client-server-cookie](md-pic\client-server-cookie.png)
+![client-server-cookie](md-pic/client-server-cookie.png)
 
 ### Session
 
