@@ -12,7 +12,7 @@
 
 ## JVM
 
-![Java 程序从源代码到运行](A:\PersonalRecords\md pictures\Java程序运行过程.png)
+![Java 程序从源代码到运行](md-pic/Java程序运行过程.png)
 
 - Java 虚拟机（JVM）是运行 Java 字节码的虚拟机。
 - JVM 可以理解的代码就叫做字节码（即扩展名为 `.class` 的文件），它不面向任何特定的处理器，只面向虚拟机
@@ -89,7 +89,7 @@
 
 ##   集合
 
-![](A:\PersonalRecords\md pictures\集合.png)
+![](md-pic/集合.png)
 
 - ArrayList 是实现了 List 接口的可扩容数组(动态数组) 
 
