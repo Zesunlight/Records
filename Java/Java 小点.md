@@ -110,25 +110,59 @@
 ## 杂项
 
 - 枚举也是类
+
 - 注解是不支持继承的 
+
 - null 是所有引⽤类型的默认值 
+
 - 可以使用 == 或者 != 操作来比较 null 值 
+
 - hashCode() 定义在 JDK 的 Object.java 中，这就意味着 Java 中的任何类都包含有 hashCode() 函数。
+
 - 使用默认的 equals() 方法，等价于 == 方法（== 比较地址）
+
 - `==` 运算符比较的时候，如果两个对象都为 null，并不会发生 `NullPointerException`，而 `equals()` 方法则会。另外， `==` 运算符会在编译时进行检查，如果两侧的类型不匹配，会提示错误，而 `equals()` 方法则不会。
+
 - 装箱就是自动将基本数据类型转换为包装器类型，让基本类型具备对象的特征，扩大了基本类型所具有的操作
+
+- 当使用自动装箱方式创建一个Integer对象时，当数值在-128 ~127时，会将创建的 Integer 对象缓存起来，当下次再出现该数值时，直接从缓存中取出对应的Integer对象。
+
 - 重写发生在父类与子类之间
+
 - 在HashSet, Hashtable, HashMap等等这些本质是散列表的数据结构中，若要判断两个对象是否相等，除了要覆盖equals()之外，也要覆盖hashCode()函数；hashset里是根据hashcode来判断元素是不是相同的
+
 - Java 程序设计语言总是采用按值调用
+
 - String是只读字符串，它并不是基本数据类型，而是一个对象。从底层源码来看是一个final类型的字符数组
+
 - String 类要设计成 final 的呢？原因大致有以下三个：
   - 为了实现字符串常量池
   - 为了线程安全
   - 为了 HashCode 的不可变性
+  
 - Vector是线程安全的，ArrayList不是线程安全的。ArrayList在底层数组不够用时在原来的基础上扩展0.5倍，Vector是扩展1倍
+
 - 枚举默认实现了 Serializable 接口，因此 Java 虚拟机可以保证该类为单例
 
+- Object的equals方法容易抛空指针异常，应使用常量或确定有值的对象来调用 equals
 
+- 当使用自动装箱方式创建一个Integer对象时，当数值在-128 ~127时，会将创建的 Integer 对象缓存起来，当下次再出现该数值时，直接从缓存中取出对应的Integer对象。
+
+- 获取输入
+
+  ```java
+  Scanner input = new Scanner(System.in);
+  String s  = input.nextLine();
+  input.close();
+  ```
+
+- `Arrays.asList()`是泛型方法，传入的对象必须是对象数组。
+
+- `synchronized` 关键字是解决并发问题常用解决方案
+
+  - 同步普通方法，锁的是当前对象。
+  - 同步静态方法，锁的是当前 `Class` 对象。
+  - 同步块，锁的是 `()` 中的对象。
 
 ## 参考
 
