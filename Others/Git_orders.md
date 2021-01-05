@@ -1,4 +1,12 @@
+## 基本概念
+
+- 工作区（Working Directory）就是你在电脑里能看到的目录
+- `git add` 把文件添加进去，实际上就是把文件修改添加到暂存区；
+- `git commit` 提交更改，实际上就是把暂存区的所有内容提交到当前分支。
+- `git add` 命令实际上就是把要提交的所有修改放到暂存区（Stage），然后执行git commit就可以一次性把暂存区的所有修改提交到分支
+
 ## 本地管理
+
 - 创建新的库 repository
 
 ```bash
@@ -48,3 +56,20 @@ git commit -m "add 3 files"
   git push -u origin master
   ```
 
+## 日常维护
+
+- commit 后回退
+  `git reset --hard 1094a | git reset --hard HEAD^`
+
+- add 后回退
+  把暂存区的修改撤销掉，工作区的修改仍然存在
+  `git reset HEAD <file>`  用HEAD时，表示最新的版本
+  
+- 未 add 回退
+  `git checkout -- file` 会影响工作区的文件
+  其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以一键还原
+  
+
+## 参考
+
+https://www.liaoxuefeng.com/wiki/896043488029600
