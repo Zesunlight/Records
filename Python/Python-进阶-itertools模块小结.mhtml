@@ -1,0 +1,3210 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://wklken.me/posts/2013/08/20/python-extra-itertools.html
+Subject: =?utf-8?Q?Python-=E8=BF=9B=E9=98=B6-itertools=E6=A8=A1=E5=9D=97=E5=B0=8F?=
+ =?utf-8?Q?=E7=BB=93?=
+Date: Fri, 25 Oct 2019 13:14:55 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--QSfeklWUi1fDDtsKQygxmInqKl2rLk3qwU77JCefmN----"
+
+
+------MultipartBoundary--QSfeklWUi1fDDtsKQygxmInqKl2rLk3qwU77JCefmN----
+Content-Type: text/html
+Content-ID: <frame-0F8198C08DA27E209BD3254CA6015058@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wklken.me/posts/2013/08/20/python-extra-itertools.html
+
+<!DOCTYPE html><html lang=3D"en-us"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8">
+=09
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+.0">
+	<meta http-equiv=3D"X-UA-Compatible" content=3D"ie=3Dedge">
+	<meta name=3D"theme-color" content=3D"#494f5c">
+	<meta name=3D"msapplication-TileColor" content=3D"#494f5c">
+
+<meta itemprop=3D"name" content=3D"Python-=E8=BF=9B=E9=98=B6-itertools=E6=
+=A8=A1=E5=9D=97=E5=B0=8F=E7=BB=93">
+<meta itemprop=3D"description" content=3D"=E8=BF=99=E8=B4=A7=E5=BE=88=E5=BC=
+=BA=E5=A4=A7, =E5=BF=85=E9=A1=BB=E6=8E=8C=E6=8F=A1 =E6=96=87=E6=A1=A3 =E9=
+=93=BE=E6=8E=A5 pymotw =E9=93=BE=E6=8E=A5 =E5=9F=BA=E6=9C=AC=E6=98=AF=E5=9F=
+=BA=E4=BA=8E=E6=96=87=E6=A1=A3=E7=9A=84=E7=BF=BB=E8=AF=91=E5=92=8C=E8=A1=A5=
+=E5=85=85=EF=BC=8C=E7=9B=B8=E5=BD=93=E4=BA=8E=E7=BF=BB=E8=AF=91=E4=BA=86 it=
+ertools=E7=94=A8=E4=BA=8E=E9=AB=98=E6=95=88=E5=BE=AA=E7=8E=AF=E7=9A=84=E8=
+=BF=AD=E4=BB=A3=E5=87=BD=E6=95=B0=E9=9B=86=E5=90=88 =E7=BB=84=E6=88=90 =E6=
+=80=BB=E4=BD=93=EF=BC=8C=E6=95=B4=E4=BD=93=E4=BA=86=E8=A7=A3 =E6=97=A0=E9=
+=99=90">
+
+
+<meta itemprop=3D"datePublished" content=3D"2013-08-20T08:00:00+08:00">
+<meta itemprop=3D"dateModified" content=3D"2013-08-20T08:00:00+08:00">
+<meta itemprop=3D"wordCount" content=3D"5943">
+
+
+
+<meta itemprop=3D"keywords" content=3D"python,">
+<meta property=3D"og:title" content=3D"Python-=E8=BF=9B=E9=98=B6-itertools=
+=E6=A8=A1=E5=9D=97=E5=B0=8F=E7=BB=93">
+<meta property=3D"og:description" content=3D"=E8=BF=99=E8=B4=A7=E5=BE=88=E5=
+=BC=BA=E5=A4=A7, =E5=BF=85=E9=A1=BB=E6=8E=8C=E6=8F=A1 =E6=96=87=E6=A1=A3 =
+=E9=93=BE=E6=8E=A5 pymotw =E9=93=BE=E6=8E=A5 =E5=9F=BA=E6=9C=AC=E6=98=AF=E5=
+=9F=BA=E4=BA=8E=E6=96=87=E6=A1=A3=E7=9A=84=E7=BF=BB=E8=AF=91=E5=92=8C=E8=A1=
+=A5=E5=85=85=EF=BC=8C=E7=9B=B8=E5=BD=93=E4=BA=8E=E7=BF=BB=E8=AF=91=E4=BA=86=
+ itertools=E7=94=A8=E4=BA=8E=E9=AB=98=E6=95=88=E5=BE=AA=E7=8E=AF=E7=9A=84=
+=E8=BF=AD=E4=BB=A3=E5=87=BD=E6=95=B0=E9=9B=86=E5=90=88 =E7=BB=84=E6=88=90 =
+=E6=80=BB=E4=BD=93=EF=BC=8C=E6=95=B4=E4=BD=93=E4=BA=86=E8=A7=A3 =E6=97=A0=
+=E9=99=90">
+<meta property=3D"og:type" content=3D"article">
+<meta property=3D"og:url" content=3D"http://wklken.me/posts/2013/08/20/pyth=
+on-extra-itertools.html">
+<meta property=3D"article:published_time" content=3D"2013-08-20T08:00:00+08=
+:00">
+<meta property=3D"article:modified_time" content=3D"2013-08-20T08:00:00+08:=
+00">
+<meta name=3D"twitter:card" content=3D"summary">
+<meta name=3D"twitter:title" content=3D"Python-=E8=BF=9B=E9=98=B6-itertools=
+=E6=A8=A1=E5=9D=97=E5=B0=8F=E7=BB=93">
+<meta name=3D"twitter:description" content=3D"=E8=BF=99=E8=B4=A7=E5=BE=88=
+=E5=BC=BA=E5=A4=A7, =E5=BF=85=E9=A1=BB=E6=8E=8C=E6=8F=A1 =E6=96=87=E6=A1=A3=
+ =E9=93=BE=E6=8E=A5 pymotw =E9=93=BE=E6=8E=A5 =E5=9F=BA=E6=9C=AC=E6=98=AF=
+=E5=9F=BA=E4=BA=8E=E6=96=87=E6=A1=A3=E7=9A=84=E7=BF=BB=E8=AF=91=E5=92=8C=E8=
+=A1=A5=E5=85=85=EF=BC=8C=E7=9B=B8=E5=BD=93=E4=BA=8E=E7=BF=BB=E8=AF=91=E4=BA=
+=86 itertools=E7=94=A8=E4=BA=8E=E9=AB=98=E6=95=88=E5=BE=AA=E7=8E=AF=E7=9A=
+=84=E8=BF=AD=E4=BB=A3=E5=87=BD=E6=95=B0=E9=9B=86=E5=90=88 =E7=BB=84=E6=88=
+=90 =E6=80=BB=E4=BD=93=EF=BC=8C=E6=95=B4=E4=BD=93=E4=BA=86=E8=A7=A3 =E6=97=
+=A0=E9=99=90">
+
+	<link rel=3D"apple-touch-icon" sizes=3D"180x180" href=3D"http://wklken.me/=
+apple-touch-icon.png">
+	<link rel=3D"icon" type=3D"image/png" sizes=3D"32x32" href=3D"http://wklke=
+n.me/favicon-32x32.png">
+	<link rel=3D"icon" type=3D"image/png" sizes=3D"16x16" href=3D"http://wklke=
+n.me/favicon-16x16.png">
+	<link rel=3D"manifest" href=3D"http://wklken.me/site.webmanifest">
+	<link rel=3D"mask-icon" href=3D"http://wklken.me/safari-pinned-tab.svg" co=
+lor=3D"">
+	<link rel=3D"shortcut icon" href=3D"http://wklken.me/favicon.ico">
+
+	<title>Python-=E8=BF=9B=E9=98=B6-itertools=E6=A8=A1=E5=9D=97=E5=B0=8F=E7=
+=BB=93</title>
+	<link rel=3D"stylesheet" href=3D"http://wklken.me/css/style.min.3170691765=
+3d2b9e8410abd431f30ec4359a88a94fc87a63654779d87329edec.css" crossorigin=3D"=
+anonymous">
+=09
+=09
+	<link rel=3D"stylesheet" href=3D"http://wklken.me/css/custom.css">
+<link rel=3D"prefetch"></head>
+
+<body id=3D"page" class=3D"vsc-initialized">
+=09
+	<header id=3D"site-header" class=3D"animated faster slideOutDown">
+		<div class=3D"hdr-wrapper section-inner">
+			<div class=3D"hdr-left">
+				<div class=3D"site-branding">
+					<a href=3D"http://wklken.me/">WKLKEN BUILDING</a>
+				</div>
+				<nav class=3D"site-nav hide-in-mobile">
+					<a href=3D"http://wklken.me/posts.html">Posts</a>
+					<a href=3D"http://wklken.me/about.html">About</a>
+				</nav>
+			</div>
+			<div class=3D"hdr-right hdr-icons">
+				<button id=3D"toc-btn" class=3D"hdr-btn desktop-only-ib" title=3D"Table=
+ of Contents"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=
+=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-=
+width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"fea=
+ther feather-list"><line x1=3D"8" y1=3D"6" x2=3D"21" y2=3D"6"></line><line =
+x1=3D"8" y1=3D"12" x2=3D"21" y2=3D"12"></line><line x1=3D"8" y1=3D"18" x2=
+=3D"21" y2=3D"18"></line><line x1=3D"3" y1=3D"6" x2=3D"3" y2=3D"6"></line><=
+line x1=3D"3" y1=3D"12" x2=3D"3" y2=3D"12"></line><line x1=3D"3" y1=3D"18" =
+x2=3D"3" y2=3D"18"></line></svg></button><span class=3D"hdr-social hide-in-=
+mobile"><a href=3D"https://github.com/wklken" target=3D"_blank" rel=3D"noop=
+ener me" title=3D"Github"><svg xmlns=3D"http://www.w3.org/2000/svg" width=
+=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"current=
+Color" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round=
+" class=3D"feather feather-github"><path d=3D"M9 19c-5 1.5-5-2.5-7-3m14 6v-=
+3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 =
+4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65=
+ 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6=
+.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href=3D"http://w=
+klken.me/posts/2013/08/20/wklken@gmail.com" target=3D"_blank" rel=3D"noopen=
+er me" title=3D"Email"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"2=
+4" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor=
+" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" cla=
+ss=3D"feather feather-mail"><path d=3D"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2=
+-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points=3D"22,6 12=
+,13 2,6"></polyline></svg></a></span><button id=3D"menu-btn" class=3D"hdr-b=
+tn" title=3D"Menu"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" h=
+eight=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" st=
+roke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=
+=3D"feather feather-menu"><line x1=3D"3" y1=3D"12" x2=3D"21" y2=3D"12"></li=
+ne><line x1=3D"3" y1=3D"6" x2=3D"21" y2=3D"6"></line><line x1=3D"3" y1=3D"1=
+8" x2=3D"21" y2=3D"18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id=3D"mobile-menu" class=3D"animated fast">
+		<ul>
+			<li><a href=3D"http://wklken.me/posts.html">Posts</a></li>
+			<li><a href=3D"http://wklken.me/about.html">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class=3D"site-main section-inner animated fadeIn faster">
+		<article class=3D"thin">
+			<header class=3D"post-header">
+				<div class=3D"post-meta"><span>Aug 20, 2013</span></div>
+				<h1>Python-=E8=BF=9B=E9=98=B6-itertools=E6=A8=A1=E5=9D=97=E5=B0=8F=E7=
+=BB=93</h1>
+			</header>
+			<div class=3D"content">
+			=09
+
+<p>=E8=BF=99=E8=B4=A7=E5=BE=88=E5=BC=BA=E5=A4=A7, =E5=BF=85=E9=A1=BB=E6=8E=
+=8C=E6=8F=A1</p>
+
+<p>=E6=96=87=E6=A1=A3 <a href=3D"http://docs.python.org/2/library/itertools=
+.html">=E9=93=BE=E6=8E=A5</a></p>
+
+<p>pymotw <a href=3D"http://pymotw.com/2/itertools/">=E9=93=BE=E6=8E=A5</a>=
+</p>
+
+<p>=E5=9F=BA=E6=9C=AC=E6=98=AF=E5=9F=BA=E4=BA=8E=E6=96=87=E6=A1=A3=E7=9A=84=
+=E7=BF=BB=E8=AF=91=E5=92=8C=E8=A1=A5=E5=85=85=EF=BC=8C=E7=9B=B8=E5=BD=93=E4=
+=BA=8E=E7=BF=BB=E8=AF=91=E4=BA=86</p>
+
+<p>itertools=E7=94=A8=E4=BA=8E=E9=AB=98=E6=95=88=E5=BE=AA=E7=8E=AF=E7=9A=84=
+=E8=BF=AD=E4=BB=A3=E5=87=BD=E6=95=B0=E9=9B=86=E5=90=88</p>
+
+<h2 id=3D"=E7=BB=84=E6=88=90">=E7=BB=84=E6=88=90<a href=3D"http://wklken.me=
+/posts/2013/08/20/python-extra-itertools.html#=E7=BB=84=E6=88=90" class=3D"=
+anchor" aria-hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" view=
+Box=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" =
+stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0=
+ 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><lin=
+e x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h2>
+
+<p>=E6=80=BB=E4=BD=93=EF=BC=8C=E6=95=B4=E4=BD=93=E4=BA=86=E8=A7=A3</p>
+
+<p>=E6=97=A0=E9=99=90=E8=BF=AD=E4=BB=A3=E5=99=A8</p>
+
+<pre><code>=E8=BF=AD=E4=BB=A3=E5=99=A8         =E5=8F=82=E6=95=B0         =
+=E7=BB=93=E6=9E=9C                                                =E4=BE=8B=
+=E5=AD=90
+count()     start, [step]   start, start+step, start+2*step, ...           =
+     count(10) --&gt; 10 11 12 13 14 ...
+cycle()     p               p0, p1, ... plast, p0, p1, ...                 =
+     cycle('ABCD') --&gt; A B C D A B C D ...
+repeat()    elem [,n]       elem, elem, elem, ... endlessly or up to n time=
+s    repeat(10, 3) --&gt; 10 10 10
+</code></pre>
+
+<p>=E5=A4=84=E7=90=86=E8=BE=93=E5=85=A5=E5=BA=8F=E5=88=97=E8=BF=AD=E4=BB=A3=
+=E5=99=A8</p>
+
+<pre><code>=E8=BF=AD=E4=BB=A3=E5=99=A8          =E5=8F=82=E6=95=B0         =
+   =E7=BB=93=E6=9E=9C                                        =E4=BE=8B=E5=
+=AD=90
+chain()     p, q, ...           p0, p1, ... plast, q0, q1, ...             =
+ chain('ABC', 'DEF') --&gt; A B C D E F
+compress()  data, selectors     (d[0] if s[0]), (d[1] if s[1]), ...        =
+ compress('ABCDEF', [1,0,1,0,1,1]) --&gt; A C E F
+dropwhile() pred, seq           seq[n], seq[n+1], starting when pred fails =
+ dropwhile(lambda x: x&lt;5, [1,4,6,4,1]) --&gt; 6 4 1
+groupby()   iterable[, keyfunc] sub-iterators grouped by value of keyfunc(v=
+)
+ifilter()   pred, seq           elements of seq where pred(elem) is True   =
+ ifilter(lambda x: x%2, range(10)) --&gt; 1 3 5 7 9
+ifilterfalse()  pred, seq       elements of seq where pred(elem) is False  =
+ ifilterfalse(lambda x: x%2, range(10)) --&gt; 0 2 4 6 8
+islice()    seq, [start,] stop [, step] elements from seq[start:stop:step] =
+ islice('ABCDEFG', 2, None) --&gt; C D E F G
+imap()      func, p, q, ...     func(p0, q0), func(p1, q1), ...            =
+ imap(pow, (2,3,10), (5,2,3)) --&gt; 32 9 1000
+starmap()   func, seq           func(*seq[0]), func(*seq[1]), ...          =
+ starmap(pow, [(2,5), (3,2), (10,3)]) --&gt; 32 9 1000
+tee()       it, n               it1, it2 , ... itn splits one iterator into=
+ n
+takewhile() pred, seq           seq[0], seq[1], until pred fails           =
+ takewhile(lambda x: x&lt;5, [1,4,6,4,1]) --&gt; 1 4
+izip()      p, q, ...           (p[0], q[0]), (p[1], q[1]), ...            =
+ izip('ABCD', 'xy') --&gt; Ax By
+izip_longest()  p, q, ...       (p[0], q[0]), (p[1], q[1]), ...            =
+ izip_longest('ABCD', 'xy', fillvalue=3D'-') --&gt; Ax By C- D-
+</code></pre>
+
+<p>=E7=BB=84=E5=90=88=E7=94=9F=E6=88=90=E5=99=A8</p>
+
+<pre><code>=E8=BF=AD=E4=BB=A3=E5=99=A8          =E5=8F=82=E6=95=B0         =
+               =E7=BB=93=E6=9E=9C
+product()       p, q, ... [repeat=3D1]        cartesian product, equivalent=
+ to a nested for-loop
+permutations()  p[, r]                      r-length tuples, all possible o=
+rderings, no repeated elements
+combinations()  p, r                        r-length tuples, in sorted orde=
+r, no repeated elements
+combinations_with_replacement() p, r        r-length tuples, in sorted orde=
+r, with repeated elements
+product('ABCD', repeat=3D2)   &nbsp;               AA AB AC AD BA BB BC BD =
+CA CB CC CD DA DB DC DD
+permutations('ABCD', 2) &nbsp;                   AB AC AD BA BC BD CA CB CD=
+ DA DB DC
+combinations('ABCD', 2) &nbsp;                   AB AC AD BC BD CD
+combinations_with_replacement('ABCD', 2)    AA AB AC AD BB BC BD CC CD DD
+</code></pre>
+
+<h2 id=3D"=E7=AC=AC=E4=B8=80=E9=83=A8=E5=88=86">=E7=AC=AC=E4=B8=80=E9=83=A8=
+=E5=88=86<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertool=
+s.html#=E7=AC=AC=E4=B8=80=E9=83=A8=E5=88=86" class=3D"anchor" aria-hidden=
+=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" f=
+ill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"r=
+ound" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-=
+5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12=
+" x2=3D"16" y2=3D"12"></line></svg></a></h2>
+
+<h3 id=3D"itertools-count-start-0-step-1">itertools.count(start=3D0, step=
+=3D1)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.ht=
+ml#itertools-count-start-0-step-1" class=3D"anchor" aria-hidden=3D"true"><s=
+vg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none"=
+ stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke=
+-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H=
+6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" =
+y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E7=94=9F=E6=88=90=E4=BB=8En=E5=BC=80=E5=A7=8B=E7=9A=84=E8=BF=9E=E7=BB=AD=
+=E6=95=B4=E6=95=B0=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=BF=BD=E7=95=A5n=EF=BC=8C=
+=E5=88=99=E4=BB=8E0=E5=BC=80=E5=A7=8B=E8=AE=A1=E7=AE=97=EF=BC=88=E6=B3=A8=
+=E6=84=8F=EF=BC=9A=E6=AD=A4=E8=BF=AD=E4=BB=A3=E5=99=A8=E4=B8=8D=E6=94=AF=E6=
+=8C=81=E9=95=BF=E6=95=B4=E6=95=B0=EF=BC=89</p>
+
+<p>=E5=A6=82=E6=9E=9C=E8=B6=85=E5=87=BA=E4=BA=86sys.maxint=EF=BC=8C=E8=AE=
+=A1=E6=95=B0=E5=99=A8=E5=B0=86=E6=BA=A2=E5=87=BA=E5=B9=B6=E7=BB=A7=E7=BB=AD=
+=E4=BB=8E-sys.maxint-1=E5=BC=80=E5=A7=8B=E8=AE=A1=E7=AE=97=E3=80=82</p>
+
+<p>=E5=AE=9A=E4=B9=89</p>
+
+<pre><code>def count(start=3D0, step=3D1):
+    # count(10) --&gt; 10 11 12 13 14 ...
+    # count(2.5, 0.5) -&gt; 2.5 3.0 3.5 ...
+    n =3D start
+    while True:
+        yield n
+        n +=3D step
+
+=E7=AD=89=E5=90=8C=E4=BA=8E(start + step * i for i in count())
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+for i in izip(count(1), ['a', 'b', 'c']):
+    print i
+
+(1, 'a')
+(2, 'b')
+(3, 'c')
+</code></pre>
+
+<h3 id=3D"itertools-cycle-iterable">itertools.cycle(iterable)<a href=3D"htt=
+p://wklken.me/posts/2013/08/20/python-extra-itertools.html#itertools-cycle-=
+iterable" class=3D"anchor" aria-hidden=3D"true"><svg xmlns=3D"http://www.w3=
+.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" =
+stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path=
+ d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1=
+ 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></=
+a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E5=AF=B9iterable=E4=B8=AD=E7=9A=84=E5=85=83=E7=B4=A0=E5=8F=8D=E5=A4=8D=E6=
+=89=A7=E8=A1=8C=E5=BE=AA=E7=8E=AF=E6=93=8D=E4=BD=9C=EF=BC=8C=E5=86=85=E9=83=
+=A8=E4=BC=9A=E7=94=9F=E6=88=90iterable=E4=B8=AD=E7=9A=84=E5=85=83=E7=B4=A0=
+=E7=9A=84=E4=B8=80=E4=B8=AA=E5=89=AF=E6=9C=AC=EF=BC=8C=E6=AD=A4=E5=89=AF=E6=
+=9C=AC=E7=94=A8=E4=BA=8E=E8=BF=94=E5=9B=9E=E5=BE=AA=E7=8E=AF=E4=B8=AD=E7=9A=
+=84=E9=87=8D=E5=A4=8D=E9=A1=B9=E3=80=82</p>
+
+<p>=E5=AE=9A=E4=B9=89</p>
+
+<pre><code>def cycle(iterable):
+    # cycle('ABCD') --&gt; A B C D A B C D A B C D ...
+    saved =3D []
+    for element in iterable:
+        yield element
+        saved.append(element)
+    while saved:
+        for element in saved:
+            yield element
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+i =3D 0
+for item in cycle(['a', 'b', 'c']):
+    i +=3D 1
+    if i =3D=3D 10:
+        break
+    print (i, item)
+
+(1, 'a')
+(2, 'b')
+(3, 'c')
+(4, 'a')
+(5, 'b')
+(6, 'c')
+(7, 'a')
+(8, 'b')
+(9, 'c')
+</code></pre>
+
+<h3 id=3D"itertools-repeat-object-times">itertools.repeat(object[, times])<=
+a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.html#ite=
+rtools-repeat-object-times" class=3D"anchor" aria-hidden=3D"true"><svg xmln=
+s=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" stroke=
+=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejo=
+in=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0=
+ 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"1=
+2"></line></svg></a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E9=87=8D=E5=A4=8D=E7=94=9F=E6=88=90object=EF=BC=8Ctimes=EF=BC=88=E5=A6=82=
+=E6=9E=9C=E5=B7=B2=E6=8F=90=E4=BE=9B=EF=BC=89=E6=8C=87=E5=AE=9A=E9=87=8D=E5=
+=A4=8D=E8=AE=A1=E6=95=B0=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=9C=AA=E6=8F=90=E4=BE=
+=9Btimes=EF=BC=8C=E5=B0=86=E6=97=A0=E6=AD=A2=E5=B0=BD=E8=BF=94=E5=9B=9E=E8=
+=AF=A5=E5=AF=B9=E8=B1=A1=E3=80=82</p>
+
+<p>=E5=AE=9A=E4=B9=89</p>
+
+<pre><code>def repeat(object, times=3DNone):
+    # repeat(10, 3) --&gt; 10 10 10
+    if times is None:
+        while True:
+            yield object
+    else:
+        for i in xrange(times):
+            yield object
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+for i in repeat('over-and-over', 5):
+    print i
+
+over-and-over
+over-and-over
+over-and-over
+over-and-over
+over-and-over
+</code></pre>
+
+<h2 id=3D"=E7=AC=AC=E4=BA=8C=E9=83=A8=E5=88=86">=E7=AC=AC=E4=BA=8C=E9=83=A8=
+=E5=88=86<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertool=
+s.html#=E7=AC=AC=E4=BA=8C=E9=83=A8=E5=88=86" class=3D"anchor" aria-hidden=
+=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" f=
+ill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"r=
+ound" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-=
+5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12=
+" x2=3D"16" y2=3D"12"></line></svg></a></h2>
+
+<h3 id=3D"itertools-chain-iterables">itertools.chain(*iterables)<a href=3D"=
+http://wklken.me/posts/2013/08/20/python-extra-itertools.html#itertools-cha=
+in-iterables" class=3D"anchor" aria-hidden=3D"true"><svg xmlns=3D"http://ww=
+w.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentCol=
+or" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><=
+path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0=
+ 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></sv=
+g></a></h3>
+
+<p>=E5=B0=86=E5=A4=9A=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=E4=BD=9C=E4=B8=BA=
+=E5=8F=82=E6=95=B0, =E4=BD=86=E5=8F=AA=E8=BF=94=E5=9B=9E=E5=8D=95=E4=B8=AA=
+=E8=BF=AD=E4=BB=A3=E5=99=A8, =E5=AE=83=E4=BA=A7=E7=94=9F=E6=89=80=E6=9C=89=
+=E5=8F=82=E6=95=B0=E8=BF=AD=E4=BB=A3=E5=99=A8=E7=9A=84=E5=86=85=E5=AE=B9, =
+=E5=B0=B1=E5=A5=BD=E5=83=8F=E4=BB=96=E4=BB=AC=E6=98=AF=E6=9D=A5=E8=87=AA=E4=
+=BA=8E=E4=B8=80=E4=B8=AA=E5=8D=95=E4=B8=80=E7=9A=84=E5=BA=8F=E5=88=97.</p>
+
+<pre><code>def chain(*iterables):
+    # chain('ABC', 'DEF') --&gt; A B C D E F
+    for it in iterables:
+        for element in it:
+            yield element
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+for i in chain([1, 2, 3], ['a', 'b', 'c']):
+    print i
+1
+2
+3
+a
+b
+c
+
+
+from itertools import chain, imap
+def flatmap(f, items):
+    return chain.from_iterable(imap(f, items))
+&gt;&gt;&gt; list(flatmap(os.listdir, dirs))
+&gt;&gt;&gt; ['settings.py', 'wsgi.py', 'templates', 'app.py',
+     'templates', 'index.html, 'config.json']
+</code></pre>
+
+<h3 id=3D"itertools-compress-data-selectors">itertools.compress(data, selec=
+tors)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.ht=
+ml#itertools-compress-data-selectors" class=3D"anchor" aria-hidden=3D"true"=
+><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"no=
+ne" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" str=
+oke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6=
+ 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"1=
+6" y2=3D"12"></line></svg></a></h3>
+
+<p>=E6=8F=90=E4=BE=9B=E4=B8=80=E4=B8=AA=E9=80=89=E6=8B=A9=E5=88=97=E8=A1=A8=
+=EF=BC=8C=E5=AF=B9=E5=8E=9F=E5=A7=8B=E6=95=B0=E6=8D=AE=E8=BF=9B=E8=A1=8C=E7=
+=AD=9B=E9=80=89</p>
+
+<pre><code>def compress(data, selectors):
+    # compress('ABCDEF', [1,0,1,0,1,1]) --&gt; A C E F
+    return (d for d, s in izip(data, selectors) if s)
+</code></pre>
+
+<h3 id=3D"itertools-dropwhile-predicate-iterable">itertools.dropwhile(predi=
+cate, iterable)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-it=
+ertools.html#itertools-dropwhile-predicate-iterable" class=3D"anchor" aria-=
+hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24=
+ 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-lineca=
+p=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 =
+0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=
+=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E5=8F=AA=E8=A6=81=E5=87=BD=E6=95=B0predicate(item)=E4=B8=BATrue=EF=BC=8C=
+=E5=B0=B1=E4=B8=A2=E5=BC=83iterable=E4=B8=AD=E7=9A=84=E9=A1=B9=EF=BC=8C=E5=
+=A6=82=E6=9E=9Cpredicate=E8=BF=94=E5=9B=9EFalse=EF=BC=8C=E5=B0=B1=E4=BC=9A=
+=E7=94=9F=E6=88=90iterable=E4=B8=AD=E7=9A=84=E9=A1=B9=E5=92=8C=E6=89=80=E6=
+=9C=89=E5=90=8E=E7=BB=AD=E9=A1=B9=E3=80=82</p>
+
+<p>=E5=8D=B3=EF=BC=9A=E5=9C=A8=E6=9D=A1=E4=BB=B6=E4=B8=BAfalse=E4=B9=8B=E5=
+=90=8E=E7=9A=84=E7=AC=AC=E4=B8=80=E6=AC=A1, =E8=BF=94=E5=9B=9E=E8=BF=AD=E4=
+=BB=A3=E5=99=A8=E4=B8=AD=E5=89=A9=E4=B8=8B=E6=9D=A5=E7=9A=84=E9=A1=B9.</p>
+
+<pre><code>def dropwhile(predicate, iterable):
+    # dropwhile(lambda x: x&lt;5, [1,4,6,4,1]) --&gt; 6 4 1
+    iterable =3D iter(iterable)
+    for x in iterable:
+        if not predicate(x):
+            yield x
+            break
+    for x in iterable:
+        yield x
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+def should_drop(x):
+    print 'Testing:', x
+    return (x&lt;1)
+
+for i in dropwhile(should_drop, [ -1, 0, 1, 2, 3, 4, 1, -2 ]):
+    print 'Yielding:', i
+
+Testing: -1
+Testing: 0
+Testing: 1
+Yielding: 1
+Yielding: 2
+Yielding: 3
+Yielding: 4
+Yielding: 1
+Yielding: -2
+</code></pre>
+
+<h3 id=3D"itertools-groupby-iterable-key">itertools.groupby(iterable[, key]=
+)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.html#i=
+tertools-groupby-iterable-key" class=3D"anchor" aria-hidden=3D"true"><svg x=
+mlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" str=
+oke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-lin=
+ejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 =
+5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=
+=3D"12"></line></svg></a></h3>
+
+<p>=E8=BF=94=E5=9B=9E=E4=B8=80=E4=B8=AA=E4=BA=A7=E7=94=9F=E6=8C=89=E7=85=A7=
+key=E8=BF=9B=E8=A1=8C=E5=88=86=E7=BB=84=E5=90=8E=E7=9A=84=E5=80=BC=E9=9B=86=
+=E5=90=88=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8.</p>
+
+<p>=E5=A6=82=E6=9E=9Citerable=E5=9C=A8=E5=A4=9A=E6=AC=A1=E8=BF=9E=E7=BB=AD=
+=E8=BF=AD=E4=BB=A3=E4=B8=AD=E7=94=9F=E6=88=90=E4=BA=86=E5=90=8C=E4=B8=80=E9=
+=A1=B9=EF=BC=8C=E5=88=99=E4=BC=9A=E5=AE=9A=E4=B9=89=E4=B8=80=E4=B8=AA=E7=BB=
+=84=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=B0=86=E6=AD=A4=E5=87=BD=E6=95=B0=E5=BA=94=
+=E7=94=A8=E4=B8=80=E4=B8=AA=E5=88=86=E7=B1=BB=E5=88=97=E8=A1=A8=EF=BC=8C=E9=
+=82=A3=E4=B9=88=E5=88=86=E7=BB=84=E5=B0=86=E5=AE=9A=E4=B9=89=E8=AF=A5=E5=88=
+=97=E8=A1=A8=E4=B8=AD=E7=9A=84=E6=89=80=E6=9C=89=E5=94=AF=E4=B8=80=E9=A1=B9=
+=EF=BC=8Ckey=EF=BC=88=E5=A6=82=E6=9E=9C=E5=B7=B2=E6=8F=90=E4=BE=9B=EF=BC=89=
+=E6=98=AF=E4=B8=80=E4=B8=AA=E5=87=BD=E6=95=B0=EF=BC=8C=E5=BA=94=E7=94=A8=E4=
+=BA=8E=E6=AF=8F=E4=B8=80=E9=A1=B9=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=AD=A4=E5=87=
+=BD=E6=95=B0=E5=AD=98=E5=9C=A8=E8=BF=94=E5=9B=9E=E5=80=BC=EF=BC=8C=E8=AF=A5=
+=E5=80=BC=E5=B0=86=E7=94=A8=E4=BA=8E=E5=90=8E=E7=BB=AD=E9=A1=B9=E8=80=8C=E4=
+=B8=8D=E6=98=AF=E8=AF=A5=E9=A1=B9=E6=9C=AC=E8=BA=AB=E8=BF=9B=E8=A1=8C=E6=AF=
+=94=E8=BE=83=EF=BC=8C=E6=AD=A4=E5=87=BD=E6=95=B0=E8=BF=94=E5=9B=9E=E7=9A=84=
+=E8=BF=AD=E4=BB=A3=E5=99=A8=E7=94=9F=E6=88=90=E5=85=83=E7=B4=A0(key, group)=
+=EF=BC=8C=E5=85=B6=E4=B8=ADkey=E6=98=AF=E5=88=86=E7=BB=84=E7=9A=84=E9=94=AE=
+=E5=80=BC=EF=BC=8Cgroup=E6=98=AF=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=E7=94=
+=9F=E6=88=90=E7=BB=84=E6=88=90=E8=AF=A5=E7=BB=84=E7=9A=84=E6=89=80=E6=9C=89=
+=E9=A1=B9=E3=80=82</p>
+
+<p>=E5=8D=B3=EF=BC=9A=E6=8C=89=E7=85=A7keyfunc=E5=87=BD=E6=95=B0=E5=AF=B9=
+=E5=BA=8F=E5=88=97=E6=AF=8F=E4=B8=AA=E5=85=83=E7=B4=A0=E6=89=A7=E8=A1=8C=E5=
+=90=8E=E7=9A=84=E7=BB=93=E6=9E=9C=E5=88=86=E7=BB=84(=E6=AF=8F=E4=B8=AA=E5=
+=88=86=E7=BB=84=E6=98=AF=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8), =E8=
+=BF=94=E5=9B=9E=E8=BF=99=E4=BA=9B=E5=88=86=E7=BB=84=E7=9A=84=E8=BF=AD=E4=BB=
+=A3=E5=99=A8</p>
+
+<p>=E7=AD=89=E4=BB=B7=E4=BA=8E</p>
+
+<pre><code>class groupby(object):
+    # [k for k, g in groupby('AAAABBBCCDAABBB')] --&gt; A B C D A B
+    # [list(g) for k, g in groupby('AAAABBBCCD')] --&gt; AAAA BBB CC D
+    def __init__(self, iterable, key=3DNone):
+        if key is None:
+            key =3D lambda x: x
+        self.keyfunc =3D key
+        self.it =3D iter(iterable)
+        self.tgtkey =3D self.currkey =3D self.currvalue =3D object()
+    def __iter__(self):
+        return self
+    def next(self):
+        while self.currkey =3D=3D self.tgtkey:
+            self.currvalue =3D next(self.it)    # Exit on StopIteration
+            self.currkey =3D self.keyfunc(self.currvalue)
+        self.tgtkey =3D self.currkey
+        return (self.currkey, self._grouper(self.tgtkey))
+    def _grouper(self, tgtkey):
+        while self.currkey =3D=3D tgtkey:
+            yield self.currvalue
+            self.currvalue =3D next(self.it)    # Exit on StopIteration
+            self.currkey =3D self.keyfunc(self.currvalue)
+</code></pre>
+
+<p>=E5=BA=94=E7=94=A8</p>
+
+<pre><code>from itertools import groupby
+qs =3D [{'date' : 1},{'date' : 2}]
+[(name, list(group)) for name, group in itertools.groupby(qs, lambda p:p['d=
+ate'])]
+
+Out[77]: [(1, [{'date': 1}]), (2, [{'date': 2}])]
+
+
+&gt;&gt;&gt; from itertools import *
+&gt;&gt;&gt; a =3D ['aa', 'ab', 'abc', 'bcd', 'abcde']
+&gt;&gt;&gt; for i, k in groupby(a, len):
+...     print i, list(k)
+...
+2 ['aa', 'ab']
+3 ['abc', 'bcd']
+5 ['abcde']
+</code></pre>
+
+<p>=E5=8F=A6=E4=B8=80=E4=B8=AA=E4=BE=8B=E5=AD=90</p>
+
+<pre><code>from itertools import *
+from operator import itemgetter
+
+d =3D dict(a=3D1, b=3D2, c=3D1, d=3D2, e=3D1, f=3D2, g=3D3)
+di =3D sorted(d.iteritems(), key=3Ditemgetter(1))
+for k, g in groupby(di, key=3Ditemgetter(1)):
+    print k, map(itemgetter(0), g)
+
+
+1 ['a', 'c', 'e']
+2 ['b', 'd', 'f']
+3 ['g']
+</code></pre>
+
+<h3 id=3D"itertools-ifilter-predicate-iterable">itertools.ifilter(predicate=
+, iterable)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-iterto=
+ols.html#itertools-ifilter-predicate-iterable" class=3D"anchor" aria-hidden=
+=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" f=
+ill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"r=
+ound" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-=
+5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12=
+" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF=E8=BF=AD=E4=BB=A3=E5=99=A8=E7=B1=BB=
+=E4=BC=BC=E4=BA=8E=E9=92=88=E5=AF=B9=E5=88=97=E8=A1=A8=E7=9A=84=E5=86=85=E7=
+=BD=AE=E5=87=BD=E6=95=B0 filter() , =E5=AE=83=E5=8F=AA=E5=8C=85=E6=8B=AC=E5=
+=BD=93=E6=B5=8B=E8=AF=95=E5=87=BD=E6=95=B0=E8=BF=94=E5=9B=9Etrue=E6=97=B6=
+=E7=9A=84=E9=A1=B9. =E5=AE=83=E4=B8=8D=E5=90=8C=E4=BA=8E dropwhile()</p>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E4=BB=85=E7=94=9F=E6=88=90iterable=E4=B8=ADpredicate(item)=E4=B8=BATrue=E7=
+=9A=84=E9=A1=B9=EF=BC=8C=E5=A6=82=E6=9E=9Cpredicate=E4=B8=BANone=EF=BC=8C=
+=E5=B0=86=E8=BF=94=E5=9B=9Eiterable=E4=B8=AD=E6=89=80=E6=9C=89=E8=AE=A1=E7=
+=AE=97=E4=B8=BATrue=E7=9A=84=E9=A1=B9</p>
+
+<p>=E5=AF=B9=E5=87=BD=E6=95=B0func=E6=89=A7=E8=A1=8C=E8=BF=94=E5=9B=9E=E7=
+=9C=9F=E7=9A=84=E5=85=83=E7=B4=A0=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8</p>
+
+<pre><code>def ifilter(predicate, iterable):
+    # ifilter(lambda x: x%2, range(10)) --&gt; 1 3 5 7 9
+    if predicate is None:
+        predicate =3D bool
+    for x in iterable:
+        if predicate(x):
+            yield x
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+def check_item(x):
+    print 'Testing:', x
+    return (x&lt;1)
+
+for i in ifilter(check_item, [ -1, 0, 1, 2, 3, 4, 1, -2 ]):
+    print 'Yielding:', i
+
+Testing: -1
+Yielding: -1
+Testing: 0
+Yielding: 0
+Testing: 1
+Testing: 2
+Testing: 3
+Testing: 4
+Testing: 1
+Testing: -2
+Yielding: -2
+</code></pre>
+
+<h3 id=3D"itertools-ifilterfalse-predicate-iterable">itertools.ifilterfalse=
+(predicate, iterable)<a href=3D"http://wklken.me/posts/2013/08/20/python-ex=
+tra-itertools.html#itertools-ifilterfalse-predicate-iterable" class=3D"anch=
+or" aria-hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" str=
+oke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 =
+1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x=
+1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=92=8Cifilter(=E5=87=BD=E6=95=B0=E7=9B=B8=E5=8F=8D =EF=BC=8C =E8=BF=
+=94=E5=9B=9E=E4=B8=80=E4=B8=AA=E5=8C=85=E5=90=AB=E9=82=A3=E4=BA=9B=E6=B5=8B=
+=E8=AF=95=E5=87=BD=E6=95=B0=E8=BF=94=E5=9B=9Efalse=E7=9A=84=E9=A1=B9=E7=9A=
+=84=E8=BF=AD=E4=BB=A3=E5=99=A8)</p>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E4=BB=85=E7=94=9F=E6=88=90iterable=E4=B8=ADpredicate(item)=E4=B8=BAFalse=
+=E7=9A=84=E9=A1=B9=EF=BC=8C=E5=A6=82=E6=9E=9Cpredicate=E4=B8=BANone=EF=BC=
+=8C=E5=88=99=E8=BF=94=E5=9B=9Eiterable=E4=B8=AD=E6=89=80=E6=9C=89=E8=AE=A1=
+=E7=AE=97=E4=B8=BAFalse=E7=9A=84=E9=A1=B9
+=E5=AF=B9=E5=87=BD=E6=95=B0func=E6=89=A7=E8=A1=8C=E8=BF=94=E5=9B=9E=E5=81=
+=87=E7=9A=84=E5=85=83=E7=B4=A0=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8</p>
+
+<pre><code>def ifilterfalse(predicate, iterable):
+    # ifilterfalse(lambda x: x%2, range(10)) --&gt; 0 2 4 6 8
+    if predicate is None:
+        predicate =3D bool
+    for x in iterable:
+        if not predicate(x):
+            yield x
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+def check_item(x):
+    print 'Testing:', x
+    return (x&lt;1)
+
+for i in ifilterfalse(check_item, [ -1, 0, 1, 2, 3, 4, 1, -2 ]):
+    print 'Yielding:', i
+
+Testing: -1
+Testing: 0
+Testing: 1
+Yielding: 1
+Testing: 2
+Yielding: 2
+Testing: 3
+Yielding: 3
+Testing: 4
+Yielding: 4
+Testing: 1
+Yielding: 1
+Testing: -2
+</code></pre>
+
+<h3 id=3D"itertools-islice-iterable-stop">itertools.islice(iterable, stop)<=
+a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.html#ite=
+rtools-islice-iterable-stop" class=3D"anchor" aria-hidden=3D"true"><svg xml=
+ns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" strok=
+e=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linej=
+oin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 =
+0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"=
+12"></line></svg></a></h3>
+
+<p>itertools.islice(iterable, start, stop[, step])</p>
+
+<p>=E8=BF=94=E5=9B=9E=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8=E6=98=AF=E8=BF=94=
+=E5=9B=9E=E4=BA=86=E8=BE=93=E5=85=A5=E8=BF=AD=E4=BB=A3=E5=99=A8=E6=A0=B9=E6=
+=8D=AE=E7=B4=A2=E5=BC=95=E6=9D=A5=E9=80=89=E5=8F=96=E7=9A=84=E9=A1=B9</p>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E7=94=9F=E6=88=90=E9=A1=B9=E7=9A=84=E6=96=B9=E5=BC=8F=E7=B1=BB=E4=BC=BC=E4=
+=BA=8E=E5=88=87=E7=89=87=E8=BF=94=E5=9B=9E=E5=80=BC=EF=BC=9A iterable[start=
+ : stop : step]=EF=BC=8C=E5=B0=86=E8=B7=B3=E8=BF=87=E5=89=8Dstart=E4=B8=AA=
+=E9=A1=B9=EF=BC=8C=E8=BF=AD=E4=BB=A3=E5=9C=A8stop=E6=89=80=E6=8C=87=E5=AE=
+=9A=E7=9A=84=E4=BD=8D=E7=BD=AE=E5=81=9C=E6=AD=A2=EF=BC=8Cstep=E6=8C=87=E5=
+=AE=9A=E7=94=A8=E4=BA=8E=E8=B7=B3=E8=BF=87=E9=A1=B9=E7=9A=84=E6=AD=A5=E5=B9=
+=85=E3=80=82
+=E4=B8=8E=E5=88=87=E7=89=87=E4=B8=8D=E5=90=8C=EF=BC=8C=E8=B4=9F=E5=80=BC=E4=
+=B8=8D=E4=BC=9A=E7=94=A8=E4=BA=8E=E4=BB=BB=E4=BD=95start=EF=BC=8Cstop=E5=92=
+=8Cstep=EF=BC=8C
+=E5=A6=82=E6=9E=9C=E7=9C=81=E7=95=A5=E4=BA=86start=EF=BC=8C=E8=BF=AD=E4=BB=
+=A3=E5=B0=86=E4=BB=8E0=E5=BC=80=E5=A7=8B=EF=BC=8C=E5=A6=82=E6=9E=9C=E7=9C=
+=81=E7=95=A5=E4=BA=86step=EF=BC=8C=E6=AD=A5=E5=B9=85=E5=B0=86=E9=87=87=E7=
+=94=A81.</p>
+
+<p>=E8=BF=94=E5=9B=9E=E5=BA=8F=E5=88=97seq=E7=9A=84=E4=BB=8Estart=E5=BC=80=
+=E5=A7=8B=E5=88=B0stop=E7=BB=93=E6=9D=9F=E7=9A=84=E6=AD=A5=E9=95=BF=E4=B8=
+=BAstep=E7=9A=84=E5=85=83=E7=B4=A0=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8</p>
+
+<pre><code>def islice(iterable, *args):
+    # islice('ABCDEFG', 2) --&gt; A B
+    # islice('ABCDEFG', 2, 4) --&gt; C D
+    # islice('ABCDEFG', 2, None) --&gt; C D E F G
+    # islice('ABCDEFG', 0, None, 2) --&gt; A C E G
+    s =3D slice(*args)
+    it =3D iter(xrange(s.start or 0, s.stop or sys.maxint, s.step or 1))
+    nexti =3D next(it)
+    for i, element in enumerate(iterable):
+        if i =3D=3D nexti:
+            yield element
+            nexti =3D next(it)
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+print 'Stop at 5:'
+for i in islice(count(), 5):
+    print i
+
+print 'Start at 5, Stop at 10:'
+for i in islice(count(), 5, 10):
+    print i
+
+print 'By tens to 100:'
+for i in islice(count(), 0, 100, 10):
+    print i
+
+Stop at 5:
+0
+1
+2
+3
+4
+Start at 5, Stop at 10:
+5
+6
+7
+8
+9
+By tens to 100:
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+</code></pre>
+
+<h3 id=3D"itertools-imap-function-iterables">itertools.imap(function, *iter=
+ables)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.h=
+tml#itertools-imap-function-iterables" class=3D"anchor" aria-hidden=3D"true=
+"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"n=
+one" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" st=
+roke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-=
+6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"=
+16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E7=94=9F=E6=88=90=E9=A1=B9function(i1, i2, =E2=80=A6, iN)=EF=BC=8C=E5=85=
+=B6=E4=B8=ADi1=EF=BC=8Ci2=E2=80=A6iN=E5=88=86=E5=88=AB=E6=9D=A5=E8=87=AA=E8=
+=BF=AD=E4=BB=A3=E5=99=A8iter1=EF=BC=8Citer2 =E2=80=A6 iterN=EF=BC=8C=E5=A6=
+=82=E6=9E=9Cfunction=E4=B8=BANone=EF=BC=8C=E5=88=99=E8=BF=94=E5=9B=9E(i1, i=
+2, =E2=80=A6, iN)=E5=BD=A2=E5=BC=8F=E7=9A=84=E5=85=83=E7=BB=84=EF=BC=8C=E5=
+=8F=AA=E8=A6=81=E6=8F=90=E4=BE=9B=E7=9A=84=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=
+=A3=E5=99=A8=E4=B8=8D=E5=86=8D=E7=94=9F=E6=88=90=E5=80=BC=EF=BC=8C=E8=BF=AD=
+=E4=BB=A3=E5=B0=B1=E4=BC=9A=E5=81=9C=E6=AD=A2=E3=80=82</p>
+
+<p>=E5=8D=B3=EF=BC=9A=E8=BF=94=E5=9B=9E=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=
+=E5=99=A8, =E5=AE=83=E6=98=AF=E8=B0=83=E7=94=A8=E4=BA=86=E4=B8=80=E4=B8=AA=
+=E5=85=B6=E5=80=BC=E5=9C=A8=E8=BE=93=E5=85=A5=E8=BF=AD=E4=BB=A3=E5=99=A8=E4=
+=B8=8A=E7=9A=84=E5=87=BD=E6=95=B0, =E8=BF=94=E5=9B=9E=E7=BB=93=E6=9E=9C. =
+=E5=AE=83=E7=B1=BB=E4=BC=BC=E4=BA=8E=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0 ma=
+p() , =E5=8F=AA=E6=98=AF=E5=89=8D=E8=80=85=E5=9C=A8=E4=BB=BB=E6=84=8F=E8=BE=
+=93=E5=85=A5=E8=BF=AD=E4=BB=A3=E5=99=A8=E7=BB=93=E6=9D=9F=E5=90=8E=E5=B0=B1=
+=E5=81=9C=E6=AD=A2(=E8=80=8C=E4=B8=8D=E6=98=AF=E6=8F=92=E5=85=A5None=E5=80=
+=BC=E6=9D=A5=E8=A1=A5=E5=85=A8=E6=89=80=E6=9C=89=E7=9A=84=E8=BE=93=E5=85=A5=
+).</p>
+
+<p>=E8=BF=94=E5=9B=9E=E5=BA=8F=E5=88=97=E6=AF=8F=E4=B8=AA=E5=85=83=E7=B4=A0=
+=E8=A2=ABfunc=E6=89=A7=E8=A1=8C=E5=90=8E=E8=BF=94=E5=9B=9E=E5=80=BC=E7=9A=
+=84=E5=BA=8F=E5=88=97=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8</p>
+
+<pre><code>def imap(function, *iterables):
+    # imap(pow, (2,3,10), (5,2,3)) --&gt; 32 9 1000
+    iterables =3D map(iter, iterables)
+    while True:
+        args =3D [next(it) for it in iterables]
+        if function is None:
+            yield tuple(args)
+        else:
+            yield function(*args)
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+print 'Doubles:'
+for i in imap(lambda x:2*x, xrange(5)):
+    print i
+
+print 'Multiples:'
+for i in imap(lambda x,y:(x, y, x*y), xrange(5), xrange(5,10)):
+    print '%d * %d =3D %d' % i
+
+Doubles:
+0
+2
+4
+6
+8
+Multiples:
+0 * 5 =3D 0
+1 * 6 =3D 6
+2 * 7 =3D 14
+3 * 8 =3D 24
+4 * 9 =3D 36
+</code></pre>
+
+<h3 id=3D"itertools-starmap-function-iterable">itertools.starmap(function, =
+iterable)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertool=
+s.html#itertools-starmap-function-iterable" class=3D"anchor" aria-hidden=3D=
+"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=
+=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"roun=
+d" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5=
+h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x=
+2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E7=94=9F=E6=88=90=E5=80=BCfunc(*item),=E5=85=B6=E4=B8=ADitem=E6=9D=A5=E8=
+=87=AAiterable=EF=BC=8C=E5=8F=AA=E6=9C=89=E5=BD=93iterable=E7=94=9F=E6=88=
+=90=E7=9A=84=E9=A1=B9=E9=80=82=E7=94=A8=E4=BA=8E=E8=BF=99=E7=A7=8D=E8=B0=83=
+=E7=94=A8=E5=87=BD=E6=95=B0=E7=9A=84=E6=96=B9=E5=BC=8F=E6=97=B6=EF=BC=8C=E6=
+=AD=A4=E5=87=BD=E6=95=B0=E6=89=8D=E6=9C=89=E6=95=88=E3=80=82</p>
+
+<p>=E5=AF=B9=E5=BA=8F=E5=88=97seq=E7=9A=84=E6=AF=8F=E4=B8=AA=E5=85=83=E7=B4=
+=A0=E4=BD=9C=E4=B8=BAfunc=E7=9A=84=E5=8F=82=E6=95=B0=E5=88=97=E8=A1=A8=E6=
+=89=A7=E8=A1=8C, =E8=BF=94=E5=9B=9E=E6=89=A7=E8=A1=8C=E7=BB=93=E6=9E=9C=E7=
+=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8</p>
+
+<pre><code>def starmap(function, iterable):
+    # starmap(pow, [(2,5), (3,2), (10,3)]) --&gt; 32 9 1000
+    for args in iterable:
+        yield function(*args)
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+values =3D [(0, 5), (1, 6), (2, 7), (3, 8), (4, 9)]
+for i in starmap(lambda x,y:(x, y, x*y), values):
+    print '%d * %d =3D %d' % i
+
+0 * 5 =3D 0
+1 * 6 =3D 6
+2 * 7 =3D 14
+3 * 8 =3D 24
+4 * 9 =3D 36
+</code></pre>
+
+<h3 id=3D"itertools-tee-iterable-n-2">itertools.tee(iterable[, n=3D2])<a hr=
+ef=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.html#itertoo=
+ls-tee-iterable-n-2" class=3D"anchor" aria-hidden=3D"true"><svg xmlns=3D"ht=
+tp://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"cur=
+rentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"r=
+ound"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-=
+5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></li=
+ne></svg></a></h3>
+
+<p>=E8=BF=94=E5=9B=9E=E4=B8=80=E4=BA=9B=E5=9F=BA=E4=BA=8E=E5=8D=95=E4=B8=AA=
+=E5=8E=9F=E5=A7=8B=E8=BE=93=E5=85=A5=E7=9A=84=E7=8B=AC=E7=AB=8B=E8=BF=AD=E4=
+=BB=A3=E5=99=A8(=E9=BB=98=E8=AE=A4=E4=B8=BA2). =E5=AE=83=E5=92=8CUnix=E4=B8=
+=8A=E7=9A=84tee=E5=B7=A5=E5=85=B7=E6=9C=89=E7=82=B9=E8=AF=AD=E4=B9=89=E7=9B=
+=B8=E4=BC=BC, =E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=E5=AE=83=E4=BB=AC=E9=83=
+=BD=E9=87=8D=E5=A4=8D=E8=AF=BB=E5=8F=96=E8=BE=93=E5=85=A5=E8=AE=BE=E5=A4=87=
+=E4=B8=AD=E7=9A=84=E5=80=BC=E5=B9=B6=E5=B0=86=E5=80=BC=E5=86=99=E5=85=A5=E5=
+=88=B0=E4=B8=80=E4=B8=AA=E5=91=BD=E5=90=8D=E6=96=87=E4=BB=B6=E5=92=8C=E6=A0=
+=87=E5=87=86=E8=BE=93=E5=87=BA=E4=B8=AD</p>
+
+<p>=E4=BB=8Eiterable=E5=88=9B=E5=BB=BAn=E4=B8=AA=E7=8B=AC=E7=AB=8B=E7=9A=84=
+=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=E5=88=9B=E5=BB=BA=E7=9A=84=E8=BF=AD=E4=
+=BB=A3=E5=99=A8=E4=BB=A5n=E5=85=83=E7=BB=84=E7=9A=84=E5=BD=A2=E5=BC=8F=E8=
+=BF=94=E5=9B=9E=EF=BC=8Cn=E7=9A=84=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA2=EF=
+=BC=8C=E6=AD=A4=E5=87=BD=E6=95=B0=E9=80=82=E7=94=A8=E4=BA=8E=E4=BB=BB=E4=BD=
+=95=E5=8F=AF=E8=BF=AD=E4=BB=A3=E7=9A=84=E5=AF=B9=E8=B1=A1=EF=BC=8C=E4=BD=86=
+=E6=98=AF=EF=BC=8C=E4=B8=BA=E4=BA=86=E5=85=8B=E9=9A=86=E5=8E=9F=E5=A7=8B=E8=
+=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=E7=94=9F=E6=88=90=E7=9A=84=E9=A1=B9=E4=BC=
+=9A=E8=A2=AB=E7=BC=93=E5=AD=98=EF=BC=8C=E5=B9=B6=E5=9C=A8=E6=89=80=E6=9C=89=
+=E6=96=B0=E5=88=9B=E5=BB=BA=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8=E4=B8=AD=E4=
+=BD=BF=E7=94=A8=EF=BC=8C=E4=B8=80=E5=AE=9A=E8=A6=81=E6=B3=A8=E6=84=8F=EF=BC=
+=8C=E4=B8=8D=E8=A6=81=E5=9C=A8=E8=B0=83=E7=94=A8tee()=E4=B9=8B=E5=90=8E=E4=
+=BD=BF=E7=94=A8=E5=8E=9F=E5=A7=8B=E8=BF=AD=E4=BB=A3=E5=99=A8iterable=EF=BC=
+=8C=E5=90=A6=E5=88=99=E7=BC=93=E5=AD=98=E6=9C=BA=E5=88=B6=E5=8F=AF=E8=83=BD=
+=E6=97=A0=E6=B3=95=E6=AD=A3=E7=A1=AE=E5=B7=A5=E4=BD=9C=E3=80=82</p>
+
+<p>=E6=8A=8A=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=E5=88=86=E4=B8=BA=
+n=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8, =E8=BF=94=E5=9B=9E=E4=B8=80=E4=B8=AA=
+=E5=85=83=E7=BB=84.=E9=BB=98=E8=AE=A4=E6=98=AF=E4=B8=A4=E4=B8=AA</p>
+
+<pre><code>def tee(iterable, n=3D2):
+    it =3D iter(iterable)
+    deques =3D [collections.deque() for i in range(n)]
+    def gen(mydeque):
+        while True:
+            if not mydeque:             # when the local deque is empty
+                newval =3D next(it)       # fetch a new value and
+                for d in deques:        # load it to all the deques
+                    d.append(newval)
+            yield mydeque.popleft()
+    return tuple(gen(d) for d in deques)
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+r =3D islice(count(), 5)
+i1, i2 =3D tee(r)
+
+for i in i1:
+    print 'i1:', i
+for i in i2:
+    print 'i2:', i
+
+i1: 0
+i1: 1
+i1: 2
+i1: 3
+i1: 4
+i2: 0
+i2: 1
+i2: 2
+i2: 3
+i2: 4
+</code></pre>
+
+<h3 id=3D"itertools-takewhile-predicate-iterable">itertools.takewhile(predi=
+cate, iterable)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-it=
+ertools.html#itertools-takewhile-predicate-iterable" class=3D"anchor" aria-=
+hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24=
+ 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-lineca=
+p=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 =
+0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=
+=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=92=8Cdropwhile=E7=9B=B8=E5=8F=8D</p>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E7=94=9F=E6=88=90iterable=E4=B8=ADpredicate(item)=E4=B8=BATrue=E7=9A=84=E9=
+=A1=B9=EF=BC=8C=E5=8F=AA=E8=A6=81predicate=E8=AE=A1=E7=AE=97=E4=B8=BAFalse=
+=EF=BC=8C=E8=BF=AD=E4=BB=A3=E5=B0=B1=E4=BC=9A=E7=AB=8B=E5=8D=B3=E5=81=9C=E6=
+=AD=A2=E3=80=82</p>
+
+<p>=E5=8D=B3=EF=BC=9A=E4=BB=8E=E5=BA=8F=E5=88=97=E7=9A=84=E5=A4=B4=E5=BC=80=
+=E5=A7=8B, =E7=9B=B4=E5=88=B0=E6=89=A7=E8=A1=8C=E5=87=BD=E6=95=B0func=E5=A4=
+=B1=E8=B4=A5.</p>
+
+<pre><code>def takewhile(predicate, iterable):
+    # takewhile(lambda x: x&lt;5, [1,4,6,4,1]) --&gt; 1 4
+    for x in iterable:
+        if predicate(x):
+            yield x
+        else:
+            break
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+def should_take(x):
+    print 'Testing:', x
+    return (x&lt;2)
+
+for i in takewhile(should_take, [ -1, 0, 1, 2, 3, 4, 1, -2 ]):
+    print 'Yielding:', i
+
+Testing: -1
+Yielding: -1
+Testing: 0
+Yielding: 0
+Testing: 1
+Yielding: 1
+Testing: 2
+</code></pre>
+
+<h3 id=3D"itertools-izip-iterables">itertools.izip(*iterables)<a href=3D"ht=
+tp://wklken.me/posts/2013/08/20/python-extra-itertools.html#itertools-izip-=
+iterables" class=3D"anchor" aria-hidden=3D"true"><svg xmlns=3D"http://www.w=
+3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor"=
+ stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><pat=
+h d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 =
+1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg><=
+/a></h3>
+
+<p>=E8=BF=94=E5=9B=9E=E4=B8=80=E4=B8=AA=E5=90=88=E5=B9=B6=E4=BA=86=E5=A4=9A=
+=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=E4=B8=BA=E4=B8=80=E4=B8=AA=E5=85=83=E7=
+=BB=84=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=99=A8. =E5=AE=83=E7=B1=BB=E4=BC=BC=E4=
+=BA=8E=E5=86=85=E7=BD=AE=E5=87=BD=E6=95=B0zip(), =E5=8F=AA=E6=98=AF=E5=AE=
+=83=E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=
+=E5=99=A8=E8=80=8C=E4=B8=8D=E6=98=AF=E4=B8=80=E4=B8=AA=E5=88=97=E8=A1=A8</p=
+>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E7=94=9F=E6=88=90=E5=85=83=E7=BB=84(i1, i2, =E2=80=A6 iN)=EF=BC=8C=E5=85=
+=B6=E4=B8=ADi1=EF=BC=8Ci2 =E2=80=A6 iN =E5=88=86=E5=88=AB=E6=9D=A5=E8=87=AA=
+=E8=BF=AD=E4=BB=A3=E5=99=A8iter1=EF=BC=8Citer2 =E2=80=A6 iterN=EF=BC=8C=E5=
+=8F=AA=E8=A6=81=E6=8F=90=E4=BE=9B=E7=9A=84=E6=9F=90=E4=B8=AA=E8=BF=AD=E4=BB=
+=A3=E5=99=A8=E4=B8=8D=E5=86=8D=E7=94=9F=E6=88=90=E5=80=BC=EF=BC=8C=E8=BF=AD=
+=E4=BB=A3=E5=B0=B1=E4=BC=9A=E5=81=9C=E6=AD=A2=EF=BC=8C=E6=AD=A4=E5=87=BD=E6=
+=95=B0=E7=94=9F=E6=88=90=E7=9A=84=E5=80=BC=E4=B8=8E=E5=86=85=E7=BD=AE=E7=9A=
+=84zip()=E5=87=BD=E6=95=B0=E7=9B=B8=E5=90=8C=E3=80=82</p>
+
+<pre><code>izip(iter1, iter2, ... iterN):
+=E8=BF=94=E5=9B=9E:(it1[0],it2 [0], it3[0], ..), (it1[1], it2[1], it3[1], .=
+.)...
+
+def izip(*iterables):
+    # izip('ABCD', 'xy') --&gt; Ax By
+    iterators =3D map(iter, iterables)
+    while iterators:
+        yield tuple(map(next, iterators))
+</code></pre>
+
+<p>=E4=BD=BF=E7=94=A8</p>
+
+<pre><code>from itertools import *
+
+for i in izip([1, 2, 3], ['a', 'b', 'c']):
+    print i
+(1, 'a')
+(2, 'b')
+(3, 'c')
+</code></pre>
+
+<h3 id=3D"itertools-izip-longest-iterables-fillvalue">itertools.izip_longes=
+t(*iterables[, fillvalue])<a href=3D"http://wklken.me/posts/2013/08/20/pyth=
+on-extra-itertools.html#itertools-izip-longest-iterables-fillvalue" class=
+=3D"anchor" aria-hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" =
+viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D=
+"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5=
+ 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>=
+<line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E4=B8=8Eizip()=E7=9B=B8=E5=90=8C=EF=BC=8C=E4=BD=86=E6=98=AF=E8=BF=AD=E4=
+=BB=A3=E8=BF=87=E7=A8=8B=E4=BC=9A=E6=8C=81=E7=BB=AD=E5=88=B0=E6=89=80=E6=9C=
+=89=E8=BE=93=E5=85=A5=E8=BF=AD=E4=BB=A3=E5=8F=98=E9=87=8Fiter1,iter2=E7=AD=
+=89=E9=83=BD=E8=80=97=E5=B0=BD=E4=B8=BA=E6=AD=A2=EF=BC=8C=E5=A6=82=E6=9E=9C=
+=E6=B2=A1=E6=9C=89=E4=BD=BF=E7=94=A8fillvalue=E5=85=B3=E9=94=AE=E5=AD=97=E5=
+=8F=82=E6=95=B0=E6=8C=87=E5=AE=9A=E4=B8=8D=E5=90=8C=E7=9A=84=E5=80=BC=EF=BC=
+=8C=E5=88=99=E4=BD=BF=E7=94=A8None=E6=9D=A5=E5=A1=AB=E5=85=85=E5=B7=B2=E7=
+=BB=8F=E4=BD=BF=E7=94=A8=E7=9A=84=E8=BF=AD=E4=BB=A3=E5=8F=98=E9=87=8F=E7=9A=
+=84=E5=80=BC=E3=80=82</p>
+
+<pre><code>class ZipExhausted(Exception):
+    pass
+
+def izip_longest(*args, **kwds):
+    # izip_longest('ABCD', 'xy', fillvalue=3D'-') --&gt; Ax By C- D-
+    fillvalue =3D kwds.get('fillvalue')
+    counter =3D [len(args) - 1]
+    def sentinel():
+        if not counter[0]:
+            raise ZipExhausted
+        counter[0] -=3D 1
+        yield fillvalue
+    fillers =3D repeat(fillvalue)
+    iterators =3D [chain(it, sentinel(), fillers) for it in args]
+    try:
+        while iterators:
+            yield tuple(map(next, iterators))
+    except ZipExhausted:
+        pass
+</code></pre>
+
+<h2 id=3D"=E7=AC=AC=E4=B8=89=E9=83=A8=E5=88=86">=E7=AC=AC=E4=B8=89=E9=83=A8=
+=E5=88=86<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertool=
+s.html#=E7=AC=AC=E4=B8=89=E9=83=A8=E5=88=86" class=3D"anchor" aria-hidden=
+=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" f=
+ill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"r=
+ound" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-=
+5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12=
+" x2=3D"16" y2=3D"12"></line></svg></a></h2>
+
+<h3 id=3D"itertools-product-iterables-repeat">itertools.product(*iterables[=
+, repeat])<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertoo=
+ls.html#itertools-product-iterables-repeat" class=3D"anchor" aria-hidden=3D=
+"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=
+=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"roun=
+d" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5=
+h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x=
+2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E7=AC=9B=E5=8D=A1=E5=B0=94=E7=A7=AF</p>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E7=94=9F=E6=88=90=E8=A1=A8=E7=A4=BAitem1=EF=BC=8Citem2=E7=AD=89=E4=B8=AD=
+=E7=9A=84=E9=A1=B9=E7=9B=AE=E7=9A=84=E7=AC=9B=E5=8D=A1=E5=B0=94=E7=A7=AF=E7=
+=9A=84=E5=85=83=E7=BB=84=EF=BC=8Crepeat=E6=98=AF=E4=B8=80=E4=B8=AA=E5=85=B3=
+=E9=94=AE=E5=AD=97=E5=8F=82=E6=95=B0=EF=BC=8C=E6=8C=87=E5=AE=9A=E9=87=8D=E5=
+=A4=8D=E7=94=9F=E6=88=90=E5=BA=8F=E5=88=97=E7=9A=84=E6=AC=A1=E6=95=B0=E3=80=
+=82</p>
+
+<pre><code>def product(*args, **kwds):
+    # product('ABCD', 'xy') --&gt; Ax Ay Bx By Cx Cy Dx Dy
+    # product(range(2), repeat=3D3) --&gt; 000 001 010 011 100 101 110 111
+    pools =3D map(tuple, args) * kwds.get('repeat', 1)
+    result =3D [[]]
+    for pool in pools:
+        result =3D [x+[y] for x in result for y in pool]
+    for prod in result:
+        yield tuple(prod)
+</code></pre>
+
+<p>=E4=BE=8B=E5=AD=90</p>
+
+<pre><code>import itertools
+a =3D (1, 2, 3)
+b =3D ('A', 'B', 'C')
+c =3D itertools.product(a,b)
+for elem in c:
+    print elem
+
+(1, 'A')
+(1, 'B')
+(1, 'C')
+(2, 'A')
+(2, 'B')
+(2, 'C')
+(3, 'A')
+(3, 'B')
+(3, 'C')
+</code></pre>
+
+<h3 id=3D"itertools-permutations-iterable-r">itertools.permutations(iterabl=
+e[, r])<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.=
+html#itertools-permutations-iterable-r" class=3D"anchor" aria-hidden=3D"tru=
+e"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"=
+none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" s=
+troke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m=
+-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D=
+"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E6=8E=92=E5=88=97</p>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E8=BF=94=E5=9B=9Eiterable=E4=B8=AD=E6=89=80=E6=9C=89=E9=95=BF=E5=BA=A6=E4=
+=B8=BAr=E7=9A=84=E9=A1=B9=E7=9B=AE=E5=BA=8F=E5=88=97=EF=BC=8C=E5=A6=82=E6=
+=9E=9C=E7=9C=81=E7=95=A5=E4=BA=86r=EF=BC=8C=E9=82=A3=E4=B9=88=E5=BA=8F=E5=
+=88=97=E7=9A=84=E9=95=BF=E5=BA=A6=E4=B8=8Eiterable=E4=B8=AD=E7=9A=84=E9=A1=
+=B9=E7=9B=AE=E6=95=B0=E9=87=8F=E7=9B=B8=E5=90=8C=EF=BC=9A
+=E8=BF=94=E5=9B=9Ep=E4=B8=AD=E4=BB=BB=E6=84=8F=E5=8F=96r=E4=B8=AA=E5=85=83=
+=E7=B4=A0=E5=81=9A=E6=8E=92=E5=88=97=E7=9A=84=E5=85=83=E7=BB=84=E7=9A=84=E8=
+=BF=AD=E4=BB=A3=E5=99=A8</p>
+
+<pre><code>def permutations(iterable, r=3DNone):
+    # permutations('ABCD', 2) --&gt; AB AC AD BA BC BD CA CB CD DA DB DC
+    # permutations(range(3)) --&gt; 012 021 102 120 201 210
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    r =3D n if r is None else r
+    if r &gt; n:
+        return
+    indices =3D range(n)
+    cycles =3D range(n, n-r, -1)
+    yield tuple(pool[i] for i in indices[:r])
+    while n:
+        for i in reversed(range(r)):
+            cycles[i] -=3D 1
+            if cycles[i] =3D=3D 0:
+                indices[i:] =3D indices[i+1:] + indices[i:i+1]
+                cycles[i] =3D n - i
+            else:
+                j =3D cycles[i]
+                indices[i], indices[-j] =3D indices[-j], indices[i]
+                yield tuple(pool[i] for i in indices[:r])
+                break
+        else:
+            return
+=E4=B9=9F=E5=8F=AF=E4=BB=A5=E7=94=A8product=E5=AE=9E=E7=8E=B0
+
+def permutations(iterable, r=3DNone):
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    r =3D n if r is None else r
+    for indices in product(range(n), repeat=3Dr):
+        if len(set(indices)) =3D=3D r:
+            yield tuple(pool[i] for i in indices)
+</code></pre>
+
+<h3 id=3D"itertools-combinations-iterable-r">itertools.combinations(iterabl=
+e, r)<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.ht=
+ml#itertools-combinations-iterable-r" class=3D"anchor" aria-hidden=3D"true"=
+><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"no=
+ne" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" str=
+oke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6=
+ 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"1=
+6" y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E8=BF=94=E5=9B=9Eiterable=E4=B8=AD=E6=89=80=E6=9C=89=E9=95=BF=E5=BA=A6=E4=
+=B8=BAr=E7=9A=84=E5=AD=90=E5=BA=8F=E5=88=97=EF=BC=8C=E8=BF=94=E5=9B=9E=E7=
+=9A=84=E5=AD=90=E5=BA=8F=E5=88=97=E4=B8=AD=E7=9A=84=E9=A1=B9=E6=8C=89=E8=BE=
+=93=E5=85=A5iterable=E4=B8=AD=E7=9A=84=E9=A1=BA=E5=BA=8F=E6=8E=92=E5=BA=8F =
+(=E4=B8=8D=E5=B8=A6=E9=87=8D=E5=A4=8D)</p>
+
+<pre><code>def combinations(iterable, r):
+    # combinations('ABCD', 2) --&gt; AB AC AD BC BD CD
+    # combinations(range(4), 3) --&gt; 012 013 023 123
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    if r &gt; n:
+        return
+    indices =3D range(r)
+    yield tuple(pool[i] for i in indices)
+    while True:
+        for i in reversed(range(r)):
+            if indices[i] !=3D i + n - r:
+                break
+        else:
+            return
+        indices[i] +=3D 1
+        for j in range(i+1, r):
+            indices[j] =3D indices[j-1] + 1
+        yield tuple(pool[i] for i in indices)
+
+#=E6=88=96=E8=80=85
+def combinations(iterable, r):
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    for indices in permutations(range(n), r):
+        if sorted(indices) =3D=3D list(indices):
+            yield tuple(pool[i] for i in indices)
+</code></pre>
+
+<h3 id=3D"itertools-combinations-with-replacement-iterable-r">itertools.com=
+binations_with_replacement(iterable, r)<a href=3D"http://wklken.me/posts/20=
+13/08/20/python-extra-itertools.html#itertools-combinations-with-replacemen=
+t-iterable-r" class=3D"anchor" aria-hidden=3D"true"><svg xmlns=3D"http://ww=
+w.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentCol=
+or" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><=
+path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0=
+ 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></sv=
+g></a></h3>
+
+<p>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=8C=
+=E8=BF=94=E5=9B=9Eiterable=E4=B8=AD=E6=89=80=E6=9C=89=E9=95=BF=E5=BA=A6=E4=
+=B8=BAr=E7=9A=84=E5=AD=90=E5=BA=8F=E5=88=97=EF=BC=8C=E8=BF=94=E5=9B=9E=E7=
+=9A=84=E5=AD=90=E5=BA=8F=E5=88=97=E4=B8=AD=E7=9A=84=E9=A1=B9=E6=8C=89=E8=BE=
+=93=E5=85=A5iterable=E4=B8=AD=E7=9A=84=E9=A1=BA=E5=BA=8F=E6=8E=92=E5=BA=8F =
+(=E5=B8=A6=E9=87=8D=E5=A4=8D)</p>
+
+<pre><code>def combinations_with_replacement(iterable, r):
+    # combinations_with_replacement('ABC', 2) --&gt; AA AB AC BB BC CC
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    if not n and r:
+        return
+    indices =3D [0] * r
+    yield tuple(pool[i] for i in indices)
+    while True:
+        for i in reversed(range(r)):
+            if indices[i] !=3D n - 1:
+                break
+        else:
+            return
+        indices[i:] =3D [indices[i] + 1] * (r - i)
+        yield tuple(pool[i] for i in indices)
+=E6=88=96=E8=80=85
+def combinations_with_replacement(iterable, r):
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    for indices in product(range(n), repeat=3Dr):
+        if sorted(indices) =3D=3D list(indices):
+            yield tuple(pool[i] for i in indices)
+</code></pre>
+
+<h2 id=3D"=E7=AC=AC=E5=9B=9B=E9=83=A8=E5=88=86">=E7=AC=AC=E5=9B=9B=E9=83=A8=
+=E5=88=86<a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertool=
+s.html#=E7=AC=AC=E5=9B=9B=E9=83=A8=E5=88=86" class=3D"anchor" aria-hidden=
+=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" f=
+ill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"r=
+ound" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-=
+5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12=
+" x2=3D"16" y2=3D"12"></line></svg></a></h2>
+
+<h3 id=3D"=E6=89=A9=E5=B1=95">=E6=89=A9=E5=B1=95<a href=3D"http://wklken.me=
+/posts/2013/08/20/python-extra-itertools.html#=E6=89=A9=E5=B1=95" class=3D"=
+anchor" aria-hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" view=
+Box=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" =
+stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0=
+ 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><lin=
+e x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E4=BD=BF=E7=94=A8=E7=8E=B0=E6=9C=89=E6=89=A9=E5=B1=95=E5=8A=9F=E8=83=BD=
+</p>
+
+<pre><code>def take(n, iterable):
+    "Return first n items of the iterable as a list"
+    return list(islice(iterable, n))
+
+def tabulate(function, start=3D0):
+    "Return function(0), function(1), ..."
+    return imap(function, count(start))
+
+def consume(iterator, n):
+    "Advance the iterator n-steps ahead. If n is none, consume entirely."
+    # Use functions that consume iterators at C speed.
+    if n is None:
+        # feed the entire iterator into a zero-length deque
+        collections.deque(iterator, maxlen=3D0)
+    else:
+        # advance to the empty slice starting at position n
+        next(islice(iterator, n, n), None)
+
+def nth(iterable, n, default=3DNone):
+    "Returns the nth item or a default value"
+    return next(islice(iterable, n, None), default)
+
+def quantify(iterable, pred=3Dbool):
+    "Count how many times the predicate is true"
+    return sum(imap(pred, iterable))
+
+def padnone(iterable):
+    """Returns the sequence elements and then returns None indefinitely.
+
+    Useful for emulating the behavior of the built-in map() function.
+    """
+    return chain(iterable, repeat(None))
+
+def ncycles(iterable, n):
+    "Returns the sequence elements n times"
+    return chain.from_iterable(repeat(tuple(iterable), n))
+
+def dotproduct(vec1, vec2):
+    return sum(imap(operator.mul, vec1, vec2))
+
+def flatten(listOfLists):
+    "Flatten one level of nesting"
+    return chain.from_iterable(listOfLists)
+
+def repeatfunc(func, times=3DNone, *args):
+    """Repeat calls to func with specified arguments.
+
+    Example:  repeatfunc(random.random)
+    """
+    if times is None:
+        return starmap(func, repeat(args))
+    return starmap(func, repeat(args, times))
+
+def pairwise(iterable):
+    "s -&gt; (s0,s1), (s1,s2), (s2, s3), ..."
+    a, b =3D tee(iterable)
+    next(b, None)
+    return izip(a, b)
+
+def grouper(iterable, n, fillvalue=3DNone):
+    "Collect data into fixed-length chunks or blocks"
+    # grouper('ABCDEFG', 3, 'x') --&gt; ABC DEF Gxx
+    args =3D [iter(iterable)] * n
+    return izip_longest(fillvalue=3Dfillvalue, *args)
+
+def roundrobin(*iterables):
+    "roundrobin('ABC', 'D', 'EF') --&gt; A D E B F C"
+    # Recipe credited to George Sakkis
+    pending =3D len(iterables)
+    nexts =3D cycle(iter(it).next for it in iterables)
+    while pending:
+        try:
+            for next in nexts:
+                yield next()
+        except StopIteration:
+            pending -=3D 1
+            nexts =3D cycle(islice(nexts, pending))
+
+def powerset(iterable):
+    "powerset([1,2,3]) --&gt; () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
+    s =3D list(iterable)
+    return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
+
+def unique_everseen(iterable, key=3DNone):
+    "List unique elements, preserving order. Remember all elements ever see=
+n."
+    # unique_everseen('AAAABBBCCDAABBB') --&gt; A B C D
+    # unique_everseen('ABBCcAD', str.lower) --&gt; A B C D
+    seen =3D set()
+    seen_add =3D seen.add
+    if key is None:
+        for element in ifilterfalse(seen.__contains__, iterable):
+            seen_add(element)
+            yield element
+    else:
+        for element in iterable:
+            k =3D key(element)
+            if k not in seen:
+                seen_add(k)
+                yield element
+
+def unique_justseen(iterable, key=3DNone):
+    "List unique elements, preserving order. Remember only the element just=
+ seen."
+    # unique_justseen('AAAABBBCCDAABBB') --&gt; A B C D A B
+    # unique_justseen('ABBCcAD', str.lower) --&gt; A B C A D
+    return imap(next, imap(itemgetter(1), groupby(iterable, key)))
+
+def iter_except(func, exception, first=3DNone):
+    """ Call a function repeatedly until an exception is raised.
+
+    Converts a call-until-exception interface to an iterator interface.
+    Like __builtin__.iter(func, sentinel) but uses an exception instead
+    of a sentinel to end the loop.
+
+    Examples:
+        bsddbiter =3D iter_except(db.next, bsddb.error, db.first)
+        heapiter =3D iter_except(functools.partial(heappop, h), IndexError)
+        dictiter =3D iter_except(d.popitem, KeyError)
+        dequeiter =3D iter_except(d.popleft, IndexError)
+        queueiter =3D iter_except(q.get_nowait, Queue.Empty)
+        setiter =3D iter_except(s.pop, KeyError)
+
+    """
+    try:
+        if first is not None:
+            yield first()
+        while 1:
+            yield func()
+    except exception:
+        pass
+
+def random_product(*args, **kwds):
+    "Random selection from itertools.product(*args, **kwds)"
+    pools =3D map(tuple, args) * kwds.get('repeat', 1)
+    return tuple(random.choice(pool) for pool in pools)
+
+def random_permutation(iterable, r=3DNone):
+    "Random selection from itertools.permutations(iterable, r)"
+    pool =3D tuple(iterable)
+    r =3D len(pool) if r is None else r
+    return tuple(random.sample(pool, r))
+
+def random_combination(iterable, r):
+    "Random selection from itertools.combinations(iterable, r)"
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    indices =3D sorted(random.sample(xrange(n), r))
+    return tuple(pool[i] for i in indices)
+
+def random_combination_with_replacement(iterable, r):
+    "Random selection from itertools.combinations_with_replacement(iterable=
+, r)"
+    pool =3D tuple(iterable)
+    n =3D len(pool)
+    indices =3D sorted(random.randrange(n) for i in xrange(r))
+    return tuple(pool[i] for i in indices)
+
+def tee_lookahead(t, i):
+    """Inspect the i-th upcomping value from a tee object
+    while leaving the tee object at its current position.
+
+    Raise an IndexError if the underlying iterator doesn't
+    have enough values.
+
+    """
+    for value in islice(t.__copy__(), i, None):
+        return value
+    raise IndexError(i)
+</code></pre>
+
+<h3 id=3D"=E8=87=AA=E5=AE=9A=E4=B9=89=E6=89=A9=E5=B1=95">=E8=87=AA=E5=AE=9A=
+=E4=B9=89=E6=89=A9=E5=B1=95<a href=3D"http://wklken.me/posts/2013/08/20/pyt=
+hon-extra-itertools.html#=E8=87=AA=E5=AE=9A=E4=B9=89=E6=89=A9=E5=B1=95" cla=
+ss=3D"anchor" aria-hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg=
+" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=
+=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h=
+3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></pa=
+th><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E5=B0=86=E5=BA=8F=E5=88=97=E6=8C=89=E5=A4=A7=E5=B0=8F=E5=88=87=E5=88=86=
+,=E6=9B=B4=E5=A5=BD=E7=9A=84=E6=80=A7=E8=83=BD</p>
+
+<pre><code>from itertools import chain, islice
+def chunks(iterable, size, format=3Diter):
+    it =3D iter(iterable)
+    while True:
+        yield format(chain((it.next(),), islice(it, size - 1)))
+
+&gt;&gt;&gt; l =3D ["a", "b", "c", "d", "e", "f", "g"]
+&gt;&gt;&gt; for chunk in chunks(l, 3, tuple):...
+        print chunk...
+("a", "b", "c")
+("d", "e", "f")
+("g",)
+</code></pre>
+
+<h3 id=3D"=E8=A1=A5=E5=85=85">=E8=A1=A5=E5=85=85<a href=3D"http://wklken.me=
+/posts/2013/08/20/python-extra-itertools.html#=E8=A1=A5=E5=85=85" class=3D"=
+anchor" aria-hidden=3D"true"><svg xmlns=3D"http://www.w3.org/2000/svg" view=
+Box=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" =
+stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0=
+ 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><lin=
+e x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></h3>
+
+<p>=E8=BF=AD=E4=BB=A3=E5=B7=A5=E5=85=B7=EF=BC=8C=E4=BD=A0=E6=9C=80=E5=A5=BD=
+=E7=9A=84=E6=9C=8B=E5=8F=8B</p>
+
+<p>=E8=BF=AD=E4=BB=A3=E5=B7=A5=E5=85=B7=E6=A8=A1=E5=9D=97=E5=8C=85=E5=90=AB=
+=E4=BA=86=E6=93=8D=E5=81=9A=E6=8C=87=E5=AE=9A=E7=9A=84=E5=87=BD=E6=95=B0=E7=
+=94=A8=E4=BA=8E=E6=93=8D=E4=BD=9C=E8=BF=AD=E4=BB=A3=E5=99=A8=E3=80=82=E6=83=
+=B3=E5=A4=8D=E5=88=B6=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=E5=87=BA=
+=E6=9D=A5=EF=BC=9F=E9=93=BE=E6=8E=A5=E4=B8=A4=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=
+=99=A8=EF=BC=9F=E4=BB=A5one liner=EF=BC=88=E8=BF=99=E9=87=8C=E7=9A=84one-li=
+ner=E5=8F=AA=E9=9C=80=E4=B8=80=E8=A1=8C=E4=BB=A3=E7=A0=81=E8=83=BD=E6=90=9E=
+=E5=AE=9A=E7=9A=84=E4=BB=BB=E5=8A=A1)=E7=94=A8=E5=86=85=E5=B5=8C=E7=9A=84=
+=E5=88=97=E8=A1=A8=E7=BB=84=E5=90=88=E4=B8=80=E7=BB=84=E5=80=BC=EF=BC=9F=E4=
+=B8=8D=E4=BD=BF=E7=94=A8list=E5=88=9B=E5=BB=BAMap/Zip=EF=BC=9F=C2=B7=C2=B7=
+=C2=B7=EF=BC=8C=E4=BD=A0=E8=A6=81=E5=81=9A=E7=9A=84=E5=B0=B1=E6=98=AF impor=
+t itertools=EF=BC=8C=E4=B8=BE=E4=B8=AA=E4=BE=8B=E5=AD=90=E5=90=A7=EF=BC=9A<=
+/p>
+
+<p>=E5=9B=9B=E5=8C=B9=E9=A9=AC=E8=B5=9B=E8=B7=91=E5=88=B0=E8=BE=BE=E7=BB=88=
+=E7=82=B9=E6=8E=92=E5=90=8D=E7=9A=84=E6=89=80=E6=9C=89=E5=8F=AF=E8=83=BD=E6=
+=80=A7=EF=BC=9A</p>
+
+<pre><code>&gt;&gt;&gt; horses =3D [1, 2, 3, 4]
+&gt;&gt;&gt; races =3D itertools.permutations(horses)
+&gt;&gt;&gt; print(races)
+&lt;itertools.permutations object at 0xb754f1dc]]&gt;
+&gt;&gt;&gt; print(list(itertools.permutations(horses)))
+[(1, 2, 3, 4),
+ (1, 2, 4, 3),
+ (1, 3, 2, 4),
+ (1, 3, 4, 2),
+ (1, 4, 2, 3),
+ (1, 4, 3, 2),
+ (2, 1, 3, 4),
+ (2, 1, 4, 3),
+ (2, 3, 1, 4),
+ (2, 3, 4, 1),
+ (2, 4, 1, 3),
+ (2, 4, 3, 1),
+ (3, 1, 2, 4),
+ (3, 1, 4, 2),
+ (3, 2, 1, 4),
+ (3, 2, 4, 1),
+ (3, 4, 1, 2),
+ (3, 4, 2, 1),
+ (4, 1, 2, 3),
+ (4, 1, 3, 2),
+ (4, 2, 1, 3),
+ (4, 2, 3, 1),
+ (4, 3, 1, 2),
+ (4, 3, 2, 1)]
+</code></pre>
+
+<p>=E7=90=86=E8=A7=A3=E8=BF=AD=E4=BB=A3=E7=9A=84=E5=86=85=E9=83=A8=E6=9C=BA=
+=E5=88=B6=EF=BC=9A
+=E8=BF=AD=E4=BB=A3(iteration=EF=BC=89=E5=B0=B1=E6=98=AF=E5=AF=B9=E5=8F=AF=
+=E8=BF=AD=E4=BB=A3=E5=AF=B9=E8=B1=A1=EF=BC=88iterables=EF=BC=8C=E5=AE=9E=E7=
+=8E=B0=E4=BA=86<strong>iter</strong>()=E6=96=B9=E6=B3=95=EF=BC=89=E5=92=8C=
+=E8=BF=AD=E4=BB=A3=E5=99=A8=EF=BC=88iterators=EF=BC=8C=E5=AE=9E=E7=8E=B0=E4=
+=BA=86<strong>next</strong>()=E6=96=B9=E6=B3=95=EF=BC=89=E7=9A=84=E4=B8=80=
+=E4=B8=AA=E6=93=8D=E4=BD=9C=E8=BF=87=E7=A8=8B=E3=80=82=E5=8F=AF=E8=BF=AD=E4=
+=BB=A3=E5=AF=B9=E8=B1=A1=E6=98=AF=E4=BB=BB=E4=BD=95=E5=8F=AF=E8=BF=94=E5=9B=
+=9E=E4=B8=80=E4=B8=AA=E8=BF=AD=E4=BB=A3=E5=99=A8=E7=9A=84=E5=AF=B9=E8=B1=A1=
+=EF=BC=8C=E8=BF=AD=E4=BB=A3=E5=99=A8=E6=98=AF=E5=BA=94=E7=94=A8=E5=9C=A8=E8=
+=BF=AD=E4=BB=A3=E5=AF=B9=E8=B1=A1=E4=B8=AD=E8=BF=AD=E4=BB=A3=E7=9A=84=E5=AF=
+=B9=E8=B1=A1=EF=BC=8C=E6=8D=A2=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F=E8=AF=B4=
+=E7=9A=84=E8=AF=9D=E5=B0=B1=E6=98=AF=EF=BC=9Aiterable=E5=AF=B9=E8=B1=A1=E7=
+=9A=84<strong>iter</strong>()=E6=96=B9=E6=B3=95=E5=8F=AF=E4=BB=A5=E8=BF=94=
+=E5=9B=9Eiterator=E5=AF=B9=E8=B1=A1=EF=BC=8Citerator=E9=80=9A=E8=BF=87=E8=
+=B0=83=E7=94=A8next()=E6=96=B9=E6=B3=95=E8=8E=B7=E5=8F=96=E5=85=B6=E4=B8=AD=
+=E7=9A=84=E6=AF=8F=E4=B8=80=E4=B8=AA=E5=80=BC(=E8=AF=91=E8=80=85=E6=B3=A8)=
+=EF=BC=8C=E8=AF=BB=E8=80=85=E5=8F=AF=E4=BB=A5=E7=BB=93=E5=90=88Java API=E4=
+=B8=AD=E7=9A=84 Iterable=E6=8E=A5=E5=8F=A3=E5=92=8CIterator=E6=8E=A5=E5=8F=
+=A3=E8=BF=9B=E8=A1=8C=E7=B1=BB=E6=AF=94=E3=80=82</p>
+
+<hr>
+
+<p>wklken</p>
+
+<p>2013-11-30</p>
+
+			</div>
+			<hr class=3D"post-end">
+			<footer class=3D"post-info">
+				<p>
+					<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" v=
+iewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"=
+2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"feather feat=
+her-tag meta-icon"><path d=3D"M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12=
+V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1=3D"7" y1=3D"7" x2=3D"7" =
+y2=3D"7"></line></svg><span class=3D"tag"><a href=3D"http://wklken.me/tags/=
+python.html">python</a></span>
+				</p>
+				<p><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24"=
+ viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=
+=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"feather =
+feather-file-text"><path d=3D"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2=
+ 0 0 0 2-2V8z"></path><polyline points=3D"14 2 14 8 20 8"></polyline><line =
+x1=3D"16" y1=3D"13" x2=3D"8" y2=3D"13"></line><line x1=3D"16" y1=3D"17" x2=
+=3D"8" y2=3D"17"></line><polyline points=3D"10 9 9 9 8 9"></polyline></svg>=
+5943 Words</p>
+				<p><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24"=
+ viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=
+=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"feather =
+feather-calendar"><rect x=3D"3" y=3D"4" width=3D"18" height=3D"18" rx=3D"2"=
+ ry=3D"2"></rect><line x1=3D"16" y1=3D"2" x2=3D"16" y2=3D"6"></line><line x=
+1=3D"8" y1=3D"2" x2=3D"8" y2=3D"6"></line><line x1=3D"3" y1=3D"10" x2=3D"21=
+" y2=3D"10"></line></svg>2013-08-20 08:00 +0800</p>
+			</footer>
+		</article>
+		<aside id=3D"toc">
+			<div class=3D"toc-title">Table of Contents</div>
+			<nav id=3D"TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E7=BB=84=E6=88=90">=E7=BB=84=E6=88=90</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E7=AC=AC=E4=B8=80=E9=83=A8=E5=88=86">=E7=AC=AC=E4=B8=80=E9=83=A8=E5=88=
+=86</a>
+<ul>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-count-start-0-step-1">itertools.count(start=3D0, step=3D1)</a><=
+/li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-cycle-iterable">itertools.cycle(iterable)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-repeat-object-times">itertools.repeat(object[, times])</a></li>
+</ul></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E7=AC=AC=E4=BA=8C=E9=83=A8=E5=88=86">=E7=AC=AC=E4=BA=8C=E9=83=A8=E5=88=
+=86</a>
+<ul>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-chain-iterables">itertools.chain(*iterables)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-compress-data-selectors">itertools.compress(data, selectors)</a=
+></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-dropwhile-predicate-iterable">itertools.dropwhile(predicate, it=
+erable)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-groupby-iterable-key">itertools.groupby(iterable[, key])</a></l=
+i>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-ifilter-predicate-iterable">itertools.ifilter(predicate, iterab=
+le)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-ifilterfalse-predicate-iterable">itertools.ifilterfalse(predica=
+te, iterable)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-islice-iterable-stop">itertools.islice(iterable, stop)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-imap-function-iterables">itertools.imap(function, *iterables)</=
+a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-starmap-function-iterable">itertools.starmap(function, iterable=
+)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-tee-iterable-n-2">itertools.tee(iterable[, n=3D2])</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-takewhile-predicate-iterable">itertools.takewhile(predicate, it=
+erable)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-izip-iterables">itertools.izip(*iterables)</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-izip-longest-iterables-fillvalue">itertools.izip_longest(*itera=
+bles[, fillvalue])</a></li>
+</ul></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E7=AC=AC=E4=B8=89=E9=83=A8=E5=88=86">=E7=AC=AC=E4=B8=89=E9=83=A8=E5=88=
+=86</a>
+<ul>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-product-iterables-repeat">itertools.product(*iterables[, repeat=
+])</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-permutations-iterable-r">itertools.permutations(iterable[, r])<=
+/a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-combinations-iterable-r">itertools.combinations(iterable, r)</a=
+></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#itertools-combinations-with-replacement-iterable-r">itertools.combination=
+s_with_replacement(iterable, r)</a></li>
+</ul></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E7=AC=AC=E5=9B=9B=E9=83=A8=E5=88=86">=E7=AC=AC=E5=9B=9B=E9=83=A8=E5=88=
+=86</a>
+<ul>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E6=89=A9=E5=B1=95">=E6=89=A9=E5=B1=95</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E8=87=AA=E5=AE=9A=E4=B9=89=E6=89=A9=E5=B1=95">=E8=87=AA=E5=AE=9A=E4=B9=
+=89=E6=89=A9=E5=B1=95</a></li>
+<li><a href=3D"http://wklken.me/posts/2013/08/20/python-extra-itertools.htm=
+l#=E8=A1=A5=E5=85=85">=E8=A1=A5=E5=85=85</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+		</aside>
+		<div class=3D"post-nav thin">
+			<a class=3D"next-post" href=3D"http://wklken.me/posts/2013/08/27/python-=
+sources.html">
+				<span class=3D"post-nav-label"><svg xmlns=3D"http://www.w3.org/2000/svg=
+" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"=
+currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=
+=3D"round" class=3D"feather feather-arrow-left"><line x1=3D"19" y1=3D"12" x=
+2=3D"5" y2=3D"12"></line><polyline points=3D"12 19 5 12 12 5"></polyline></=
+svg>&nbsp;Newer</span><br><span>Python=E8=B5=84=E6=BA=90=E5=85=A5=E5=8F=A3=
+=E6=B1=87=E6=80=BB</span>
+			</a>
+			<a class=3D"prev-post" href=3D"http://wklken.me/posts/2013/08/18/python-=
+extra-functools.html">
+				<span class=3D"post-nav-label">Older&nbsp;<svg xmlns=3D"http://www.w3.o=
+rg/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"none"=
+ stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke=
+-linejoin=3D"round" class=3D"feather feather-arrow-right"><line x1=3D"5" y1=
+=3D"12" x2=3D"19" y2=3D"12"></line><polyline points=3D"12 5 19 12 12 19"></=
+polyline></svg></span><br><span>Python-=E8=BF=9B=E9=98=B6-functools=E6=A8=
+=A1=E5=9D=97=E5=B0=8F=E7=BB=93</span>
+			</a>
+		</div>
+
+    <div class=3D"thin">
+				<span class=3D"post-nav-label">
+          <a href=3D"https://www.vultr.com/?ref=3D7825696-4F"><img src=3D"h=
+ttps://www.vultr.com/media/banners/banner_800x418.png" width=3D"100%" heigh=
+t=3D"418" style=3D"display: block; margin-left: auto; margin-right: auto;">=
+</a>
+        </span>
+    </div>
+
+		<div id=3D"comments" class=3D"thin">
+<div id=3D"disqus_thread"></div>
+
+
+<a href=3D"https://disqus.com/" class=3D"dsq-brlink">comments powered by <s=
+pan class=3D"logo-disqus">Disqus</span></a>
+</div>
+	</main>
+
+	<footer id=3D"site-footer" class=3D"section-inner thin animated fadeIn fas=
+ter">
+		<p>=C2=A9 2019 <a href=3D"http://wklken.me/">wklken</a> =C2=B7 <a href=3D=
+"https://creativecommons.org/licenses/by-nc/4.0/" target=3D"_blank" rel=3D"=
+noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href=3D"https://gohugo.io/" target=3D"_blank" rel=3D"noopen=
+er">Hugo</a> =C2=B7 Theme <a href=3D"https://github.com/Track3/hermit" targ=
+et=3D"_blank" rel=3D"noopener">Hermit</a> =C2=B7 <a href=3D"http://wklken.m=
+e/posts/index.xml" target=3D"_blank" title=3D"rss"><svg xmlns=3D"http://www=
+.w3.org/2000/svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" fill=3D"=
+none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" s=
+troke-linejoin=3D"round" class=3D"feather feather-rss"><path d=3D"M4 11a9 9=
+ 0 0 1 9 9"></path><path d=3D"M4 4a16 16 0 0 1 16 16"></path><circle cx=3D"=
+5" cy=3D"19" r=3D"1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+=09
+
+
+
+
+
+
+
+</body></html>
+------MultipartBoundary--QSfeklWUi1fDDtsKQygxmInqKl2rLk3qwU77JCefmN----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wklken.me/css/style.min.31706917653d2b9e8410abd431f30ec4359a88a94fc87a63654779d87329edec.css
+
+@charset "utf-8";
+
+html { line-height: 1.15; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+hr { box-sizing: content-box; height: 0px; overflow: visible; }
+
+pre { font-family: monospace, monospace; font-size: 1em; }
+
+a { background-color: transparent; }
+
+abbr[title] { border-bottom: none; text-decoration: underline dotted; }
+
+b, strong { font-weight: bolder; }
+
+code, kbd, samp { font-family: monospace, monospace; font-size: 1em; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+img { border-style: none; }
+
+button, input, optgroup, select, textarea { font-family: inherit; font-size=
+: 100%; line-height: 1.15; margin: 0px; }
+
+button, input { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, [type=3D"button"], [type=3D"reset"], [type=3D"submit"] { -webkit-ap=
+pearance: button; }
+
+fieldset { padding: 0.35em 0.75em 0.625em; }
+
+legend { box-sizing: border-box; color: inherit; display: table; max-width:=
+ 100%; padding: 0px; white-space: normal; }
+
+progress { vertical-align: baseline; }
+
+textarea { overflow: auto; }
+
+[type=3D"checkbox"], [type=3D"radio"] { box-sizing: border-box; padding: 0p=
+x; }
+
+[type=3D"number"]::-webkit-inner-spin-button, [type=3D"number"]::-webkit-ou=
+ter-spin-button { height: auto; }
+
+[type=3D"search"] { -webkit-appearance: textfield; outline-offset: -2px; }
+
+[type=3D"search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+::-webkit-file-upload-button { -webkit-appearance: button; font: inherit; }
+
+details { display: block; }
+
+summary { display: list-item; }
+
+template { display: none; }
+
+[hidden] { display: none; }
+
+.chroma { color: rgb(238, 238, 238); background-color: rgb(44, 62, 80); }
+
+.chroma .err { color: rgb(150, 0, 80); background-color: rgb(30, 0, 16); }
+
+.chroma .lntd { vertical-align: top; padding: 0px; margin: 0px; border: 0px=
+; }
+
+.chroma .lntable { border-spacing: 0px; padding: 0px; margin: 0px; border: =
+0px; width: auto; overflow: auto; display: block; }
+
+.chroma .hl { display: block; width: 100%; background-color: rgb(255, 255, =
+204); }
+
+.chroma .lnt { margin-right: 0.4em; padding: 0px 0.4em; }
+
+.chroma .ln { margin-right: 0.4em; padding: 0px 0.4em; }
+
+.chroma .k { color: rgb(102, 217, 239); }
+
+.chroma .kc { color: rgb(102, 217, 239); }
+
+.chroma .kd { color: rgb(102, 217, 239); }
+
+.chroma .kn { color: rgb(249, 38, 114); }
+
+.chroma .kp { color: rgb(102, 217, 239); }
+
+.chroma .kr { color: rgb(102, 217, 239); }
+
+.chroma .kt { color: rgb(102, 217, 239); }
+
+.chroma .na { color: rgb(166, 226, 46); }
+
+.chroma .nc { color: rgb(166, 226, 46); }
+
+.chroma .no { color: rgb(102, 217, 239); }
+
+.chroma .nd { color: rgb(166, 226, 46); }
+
+.chroma .ne { color: rgb(166, 226, 46); }
+
+.chroma .nf { color: rgb(166, 226, 46); }
+
+.chroma .nx { color: rgb(166, 226, 46); }
+
+.chroma .nt { color: rgb(249, 38, 114); }
+
+.chroma .l { color: rgb(174, 129, 255); }
+
+.chroma .ld { color: rgb(230, 219, 116); }
+
+.chroma .s { color: rgb(230, 219, 116); }
+
+.chroma .sa { color: rgb(230, 219, 116); }
+
+.chroma .sb { color: rgb(230, 219, 116); }
+
+.chroma .sc { color: rgb(230, 219, 116); }
+
+.chroma .dl { color: rgb(230, 219, 116); }
+
+.chroma .sd { color: rgb(230, 219, 116); }
+
+.chroma .s2 { color: rgb(230, 219, 116); }
+
+.chroma .se { color: rgb(174, 129, 255); }
+
+.chroma .sh { color: rgb(230, 219, 116); }
+
+.chroma .si { color: rgb(230, 219, 116); }
+
+.chroma .sx { color: rgb(230, 219, 116); }
+
+.chroma .sr { color: rgb(230, 219, 116); }
+
+.chroma .s1 { color: rgb(230, 219, 116); }
+
+.chroma .ss { color: rgb(230, 219, 116); }
+
+.chroma .m { color: rgb(174, 129, 255); }
+
+.chroma .mb { color: rgb(174, 129, 255); }
+
+.chroma .mf { color: rgb(174, 129, 255); }
+
+.chroma .mh { color: rgb(174, 129, 255); }
+
+.chroma .mi { color: rgb(174, 129, 255); }
+
+.chroma .il { color: rgb(174, 129, 255); }
+
+.chroma .mo { color: rgb(174, 129, 255); }
+
+.chroma .o { color: rgb(249, 38, 114); }
+
+.chroma .ow { color: rgb(249, 38, 114); }
+
+.chroma .c { color: rgb(117, 113, 94); }
+
+.chroma .ch { color: rgb(117, 113, 94); }
+
+.chroma .cm { color: rgb(117, 113, 94); }
+
+.chroma .c1 { color: rgb(117, 113, 94); }
+
+.chroma .cs { color: rgb(117, 113, 94); }
+
+.chroma .cp { color: rgb(117, 113, 94); }
+
+.chroma .cpf { color: rgb(117, 113, 94); }
+
+.chroma .gd { color: rgb(249, 38, 114); }
+
+.chroma .ge { font-style: italic; }
+
+.chroma .gi { color: rgb(166, 226, 46); }
+
+.chroma .gs { font-weight: 700; }
+
+.chroma .gu { color: rgb(117, 113, 94); }
+
+@-webkit-keyframes flash {=20
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+@keyframes flash {=20
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+.flash { animation-name: flash; }
+
+@-webkit-keyframes bounceInRight {=20
+  0%, 60%, 75%, 90%, 100% { animation-timing-function: cubic-bezier(0.215, =
+0.61, 0.355, 1); }
+  0% { opacity: 0; transform: translate3d(3000px, 0px, 0px); }
+  60% { opacity: 1; transform: translate3d(-25px, 0px, 0px); }
+  75% { transform: translate3d(10px, 0px, 0px); }
+  90% { transform: translate3d(-5px, 0px, 0px); }
+  100% { transform: translateZ(0px); }
+}
+
+@keyframes bounceInRight {=20
+  0%, 60%, 75%, 90%, 100% { animation-timing-function: cubic-bezier(0.215, =
+0.61, 0.355, 1); }
+  0% { opacity: 0; transform: translate3d(3000px, 0px, 0px); }
+  60% { opacity: 1; transform: translate3d(-25px, 0px, 0px); }
+  75% { transform: translate3d(10px, 0px, 0px); }
+  90% { transform: translate3d(-5px, 0px, 0px); }
+  100% { transform: translateZ(0px); }
+}
+
+.bounceInRight { animation-name: bounceInRight; }
+
+@-webkit-keyframes bounceOutRight {=20
+  20% { opacity: 1; transform: translate3d(-20px, 0px, 0px); }
+  100% { opacity: 0; transform: translate3d(2000px, 0px, 0px); }
+}
+
+@keyframes bounceOutRight {=20
+  20% { opacity: 1; transform: translate3d(-20px, 0px, 0px); }
+  100% { opacity: 0; transform: translate3d(2000px, 0px, 0px); }
+}
+
+.bounceOutRight { animation-name: bounceOutRight; }
+
+@-webkit-keyframes fadeIn {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadeIn { animation-name: fadeIn; }
+
+@-webkit-keyframes slideInUp {=20
+  0% { transform: translate3d(0px, 100%, 0px); visibility: visible; }
+  100% { transform: translateZ(0px); }
+}
+
+@keyframes slideInUp {=20
+  0% { transform: translate3d(0px, 100%, 0px); visibility: visible; }
+  100% { transform: translateZ(0px); }
+}
+
+.slideInUp { animation-name: slideInUp; }
+
+@-webkit-keyframes slideOutDown {=20
+  0% { transform: translateZ(0px); }
+  100% { visibility: hidden; transform: translate3d(0px, 100%, 0px); }
+}
+
+@keyframes slideOutDown {=20
+  0% { transform: translateZ(0px); }
+  100% { visibility: hidden; transform: translate3d(0px, 100%, 0px); }
+}
+
+.slideOutDown { animation-name: slideOutDown; }
+
+.animated { animation-duration: 1s; animation-fill-mode: both; }
+
+.animated.infinite { animation-iteration-count: infinite; }
+
+.animated.delay-1s { animation-delay: 1s; }
+
+.animated.delay-2s { animation-delay: 2s; }
+
+.animated.delay-3s { animation-delay: 3s; }
+
+.animated.delay-4s { animation-delay: 4s; }
+
+.animated.delay-5s { animation-delay: 5s; }
+
+.animated.fast { animation-duration: 0.8s; }
+
+.animated.faster { animation-duration: 0.5s; }
+
+.animated.slow { animation-duration: 2s; }
+
+.animated.slower { animation-duration: 3s; }
+
+@media (prefers-reduced-motion), not all {
+  .animated { animation: unset !important; transition: none 0s ease 0s !imp=
+ortant; }
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; background: rgb(44, 62, 80);=
+ }
+
+::-webkit-scrollbar-thumb { background: rgb(136, 136, 136); }
+
+::-webkit-scrollbar-thumb:hover { background: rgb(198, 205, 219); }
+
+html { background: rgb(73, 79, 92); line-height: 1.6; letter-spacing: 0.06e=
+m; scroll-behavior: smooth; }
+
+body, button, input, select, textarea { color: rgb(198, 205, 219); font-fam=
+ily: "trebuchet ms", Verdana, "verdana ref", "segoe ui", Candara, "lucida g=
+rande", "lucida sans unicode", "lucida sans", Tahoma, sans-serif; }
+
+pre, code, pre tt { font-family: Consolas, "andale mono wt", "andale mono",=
+ Menlo, Monaco, "lucida console", "lucida sans typewriter", "dejavu sans mo=
+no", "bitstream vera sans mono", "liberation mono", "nimbus mono l", "couri=
+er new", Courier, "yahei consolas hybrid", monospace, "segoe ui emoji", "pi=
+ngfang sc", "microsoft yahei"; }
+
+pre { padding: 0.7em 1.1em; overflow: auto; font-size: 0.9em; line-height: =
+1.5; letter-spacing: normal; white-space: pre; color: rgb(238, 238, 238); b=
+ackground: rgb(44, 62, 80); border-radius: 4px; }
+
+pre code { padding: 0px; margin: 0px; background: rgb(44, 62, 80); }
+
+code { color: rgb(238, 238, 238); background: rgb(125, 130, 138); border-ra=
+dius: 3px; padding: 0px 3px; margin: 0px 4px; overflow-wrap: break-word; le=
+tter-spacing: normal; }
+
+blockquote { border-left: 0.25em solid; margin: 1em; padding: 0px 1em; font=
+-style: italic; }
+
+blockquote cite { font-weight: 700; font-style: normal; }
+
+blockquote cite::before { content: "=E2=80=94=E2=80=94 "; }
+
+a { color: rgb(198, 205, 219); text-decoration: none; border: none; transit=
+ion-property: color; transition-duration: 0.4s; transition-timing-function:=
+ ease-out; }
+
+a:hover { color: rgb(255, 255, 255); }
+
+hr { opacity: 0.2; border-width: 0px 0px 5px; border-style: dashed; backgro=
+und: transparent; width: 50%; margin: 1.8em auto; }
+
+table { border-collapse: collapse; border-spacing: 0px; empty-cells: show; =
+width: 100%; max-width: 100%; }
+
+table th, table td { padding: 1.5%; border: 1px solid; }
+
+table th { font-weight: 700; vertical-align: bottom; }
+
+.section-inner { margin: 0px auto; max-width: 1200px; width: 93%; }
+
+.thin { max-width: 720px; margin: auto; }
+
+.feather { display: inline-block; vertical-align: -0.125em; width: 1em; hei=
+ght: 1em; }
+
+.desktop-only, .desktop-only-ib { display: none; }
+
+.screen-reader-text { border: 0px; clip: rect(1px, 1px, 1px, 1px); clip-pat=
+h: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; w=
+idth: 1px; position: absolute !important; overflow-wrap: normal !important;=
+ }
+
+.screen-reader-text:focus { background-color: rgb(241, 241, 241); border-ra=
+dius: 3px; box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 2px 2px; clip-path: none;=
+ color: rgb(33, 117, 155); display: block; font-size: 0.875rem; font-weight=
+: 700; height: auto; left: 5px; line-height: normal; padding: 15px 23px 14p=
+x; text-decoration: none; top: 5px; width: auto; z-index: 100000; clip: aut=
+o !important; }
+
+#site-header { position: fixed; z-index: 1; bottom: 0px; width: 100%; box-s=
+izing: border-box; box-shadow: rgba(0, 0, 0, 0.45) -1px -2px 3px; backgroun=
+d-color: rgb(59, 62, 72); }
+
+.hdr-wrapper { display: flex; justify-content: space-between; align-items: =
+center; padding: 0.5em 0px; font-size: 1.2rem; }
+
+.hdr-wrapper .site-branding { display: inline-block; margin-right: 0.8em; f=
+ont-size: 1.2em; }
+
+.hdr-wrapper .site-nav { display: inline-block; font-size: 1.1em; opacity: =
+0.8; }
+
+.hdr-wrapper .site-nav a { margin-left: 0.8em; }
+
+.hdr-icons { font-size: 1.2em; }
+
+.hdr-social { display: inline-block; margin-left: 0.6em; }
+
+.hdr-social > a { margin-left: 0.4em; }
+
+.hdr-btn { border: none; background: 0px 0px; padding: 0px; margin-left: 0.=
+4em; cursor: pointer; }
+
+#menu-btn { display: none; margin-left: 0.6em; cursor: pointer; }
+
+#mobile-menu { position: fixed; bottom: 4.8em; right: 1.5em; display: none;=
+ padding: 0.6em 1.8em; z-index: 1; box-sizing: border-box; box-shadow: rgba=
+(0, 0, 0, 0.45) -1px -2px 3px 0px; background-color: rgb(59, 62, 72); }
+
+#mobile-menu ul { list-style: none; margin: 0px; padding: 0px; line-height:=
+ 2; font-size: 1.2em; }
+
+#site-footer { text-align: center; font-size: 0.9em; margin-bottom: 96px; m=
+argin-top: 64px; }
+
+#site-footer p { margin: 0px; }
+
+#spotlight { display: flex; height: 100vh; flex-direction: column; align-it=
+ems: center; justify-content: center; max-width: 93%; margin: auto; font-si=
+ze: 1.5rem; }
+
+#spotlight.error-404 { flex-direction: row; line-height: normal; }
+
+p.img-404 { margin: 0px; }
+
+p.img-404 svg { width: 180px; max-width: 100%; height: auto; }
+
+.banner-404 { margin-left: 2em; }
+
+.banner-404 h1 { font-size: 3em; margin: 0.5rem 0px; }
+
+.banner-404 p { margin-top: 0px; }
+
+.banner-404 .btn-404 { font-size: 0.8em; }
+
+.banner-404 .btn-404 a { display: inline-block; border: 2px solid rgb(198, =
+205, 219); border-radius: 5px; padding: 5px; transition-property: color, bo=
+rder-color; }
+
+.banner-404 .btn-404 a:first-child { margin-right: 1em; }
+
+.banner-404 .btn-404 a:hover { border-color: rgb(255, 255, 255); }
+
+.banner-404 .btn-404 a svg { margin-right: 0.5em; }
+
+#home-center { display: flex; flex-grow: 1; flex-direction: column; justify=
+-content: center; }
+
+#home-title { margin: 0px; text-align: center; }
+
+#home-subtitle { margin-top: 0px; margin-bottom: 1.5em; text-align: center;=
+ line-height: normal; font-size: 0.7em; font-style: italic; opacity: 0.9; }
+
+#home-social { font-size: 1.4em; text-align: center; opacity: 0.8; }
+
+#home-social a { margin: 0px 0.2em; }
+
+#home-nav { opacity: 0.8; }
+
+#home-nav a { display: block; text-align: center; margin-top: 0.5em; }
+
+#home-footer { text-align: center; font-size: 0.6em; line-height: normal; o=
+pacity: 0.6; }
+
+#home-footer p { margin-top: 0px; }
+
+.posts-group { display: flex; margin-bottom: 1.9em; line-height: normal; }
+
+.posts-group .post-year { padding-top: 6px; margin-right: 1.8em; font-size:=
+ 1.6em; opacity: 0.6; }
+
+.posts-group .post-year:hover { text-decoration: underline; cursor: pointer=
+; }
+
+.posts-group .posts-list { flex-grow: 1; margin: 0px; padding: 0px; list-st=
+yle: none; }
+
+.posts-group .post-item { border-bottom: 1px dashed rgb(125, 130, 138); }
+
+.posts-group .post-item a { display: flex; justify-content: space-between; =
+align-items: baseline; padding: 12px 0px; }
+
+.posts-group .post-day { flex-shrink: 0; margin-left: 1em; opacity: 0.6; }
+
+.bg-img { width: 100vw; height: 100vh; opacity: 0.03; z-index: -1; position=
+: fixed; top: 0px; background-attachment: fixed; background-repeat: no-repe=
+at; background-size: cover; background-position: 50% center; transition: op=
+acity 0.5s ease 0s; }
+
+.show-bg-img { z-index: 100; opacity: 1; cursor: pointer; }
+
+.post-header { margin-top: 1.2em; line-height: normal; }
+
+.post-header .post-meta { font-size: 0.9em; letter-spacing: normal; opacity=
+: 0.6; }
+
+.post-header h1 { margin-top: 0.1em; }
+
+hr.post-end { width: 50%; margin-top: 1.6em; margin-bottom: 0.8em; margin-l=
+eft: 0px; border-style: solid; border-bottom-width: 4px; }
+
+.content a { overflow-wrap: break-word; border: none; box-shadow: rgb(1, 13=
+3, 116) 0px -4px 0px inset; transition-property: background-color; }
+
+.content a:hover { background-color: rgb(1, 133, 116); }
+
+.content figure { max-width: 100%; height: auto; margin: 0px; text-align: c=
+enter; }
+
+.content figure p { font-size: 0.8em; font-style: italic; opacity: 0.6; }
+
+.content figure.left { float: left; margin-right: 1.5em; max-width: 50%; }
+
+.content figure.right { float: right; margin-left: 1.5em; max-width: 50%; }
+
+.content figure.big { max-width: 100vw; }
+
+.content img { display: block; max-width: 100%; height: auto; margin: auto;=
+ border-radius: 4px; }
+
+.content ul, .content ol { padding: 0px; margin-left: 1.8em; }
+
+.content a.anchor { float: left; margin-left: -20px; padding-right: 6px; bo=
+x-shadow: none; opacity: 0.8; }
+
+.content a.anchor:hover { background: 0px 0px; color: rgb(1, 133, 116); opa=
+city: 1; }
+
+.content a.anchor svg { display: inline-block; width: 14px; height: 14px; v=
+ertical-align: baseline; visibility: hidden; }
+
+.content a.anchor:focus svg { visibility: visible; }
+
+.content h1:hover a.anchor svg, .content h2:hover a.anchor svg, .content h3=
+:hover a.anchor svg, .content h4:hover a.anchor svg, .content h5:hover a.an=
+chor svg, .content h6:hover a.anchor svg { visibility: visible; }
+
+.footnotes { font-size: 0.85em; }
+
+.footnotes a { box-shadow: none; text-decoration: underline; transition-pro=
+perty: color; }
+
+.footnotes a:hover { background: transparent; }
+
+.footnotes a.footnote-return { text-decoration: none; }
+
+.footnotes ol { line-height: 1.8; }
+
+.footnote-ref a { box-shadow: none; text-decoration: none; padding: 2px; bo=
+rder-radius: 2px; background-color: rgb(44, 62, 80); }
+
+.post-info { font-size: 0.8rem; line-height: normal; opacity: 0.6; }
+
+.post-info p { margin: 0.8em 0px; }
+
+.post-info a:hover { border-bottom: 1px solid rgb(1, 133, 116); }
+
+.post-info svg { margin-right: 0.8em; }
+
+.post-info .tag { margin-right: 0.5em; }
+
+.post-info .tag::before { content: "#"; }
+
+#toc { position: fixed; left: 50%; top: 0px; display: none; }
+
+.toc-title { margin-left: 1em; margin-bottom: 0.5em; font-size: 0.8em; font=
+-weight: 700; }
+
+#TableOfContents { font-size: 0.8em; opacity: 0.6; }
+
+#TableOfContents ul { padding-left: 1em; margin: 0px; }
+
+#TableOfContents > ul { list-style-type: none; }
+
+#TableOfContents > ul ul ul { font-size: 0.9em; }
+
+#TableOfContents a:hover { border-bottom: 1px solid rgb(1, 133, 116); }
+
+.post-nav { display: flex; justify-content: space-between; margin-top: 1.5e=
+m; margin-bottom: 2.5em; font-size: 1.2em; }
+
+.post-nav a { flex-basis: 50%; flex-grow: 1; }
+
+.post-nav .next-post { text-align: left; padding-right: 5px; }
+
+.post-nav .prev-post { text-align: right; padding-left: 5px; }
+
+.post-nav .post-nav-label { font-size: 0.8em; opacity: 0.8; text-transform:=
+ uppercase; }
+
+@media (min-width: 800px) {
+  .site-main { margin-top: 3em; }
+  hr.post-end { width: 40%; }
+}
+
+@media (min-width: 960px) {
+  .site-main { margin-top: 6em; }
+}
+
+@media (min-width: 1300px) {
+  .site-main { margin-top: 8em; }
+  .desktop-only, #toc.show-toc { display: block; }
+  .desktop-only-ib { display: inline-block; }
+  figure.left { margin-left: -240px; }
+  figure.left p { text-align: left; }
+  figure.right { margin-right: -240px; }
+  figure.right p { text-align: right; }
+  figure.big { width: 1200px; margin-left: -240px; }
+  hr.post-end { width: 30%; }
+  #toc { top: 13em; margin-left: 370px; max-width: 220px; }
+}
+
+@media (min-width: 1800px) {
+  .site-main { margin-top: 10em; }
+  .section-inner { max-width: 1600px; }
+  .thin { max-width: 960px; }
+  figure.left { max-width: 75%; margin-left: -320px; }
+  figure.right { max-width: 75%; margin-right: -320px; }
+  figure.big { width: 1600px; margin-left: -320px; }
+  hr.post-end { width: 30%; }
+  #toc { top: 15em; margin-left: 490px; max-width: 300px; }
+}
+
+@media (max-width: 760px) {
+  .hide-in-mobile, .site-nav.hide-in-mobile { display: none; }
+  #menu-btn { display: inline-block; }
+  .posts-group { display: block; }
+  .posts-group .post-year { margin: -6px 0px 4px; }
+  #spotlight.error-404 { flex-direction: column; text-align: center; }
+  #spotlight.error-404 .banner-404 { margin: 0px; }
+}
+
+@media (max-width: 520px) {
+  .content figure.left, .content figure.right { float: unset; max-width: 10=
+0%; margin: 0px; }
+  hr.post-end { width: 60%; }
+  #mobile-menu { right: 1.2em; }
+}
+------MultipartBoundary--QSfeklWUi1fDDtsKQygxmInqKl2rLk3qwU77JCefmN----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://wklken.me/css/custom.css
+
+@charset "utf-8";
+
+html { background: rgb(242, 238, 225); }
+
+body, input, select, textarea { color: rgb(34, 34, 34); font-family: "Helve=
+tica Neue", Helvetica, Arial, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro=
+ Hei", SimSun, sans-serif; line-height: 30px; }
+
+button { color: rgb(54, 115, 165); }
+
+button:hover { color: rgb(17, 17, 17); }
+
+p { margin: 0px 0px 1.5em; }
+
+blockquote { color: rgb(111, 111, 111); border-left: 2px solid rgb(26, 188,=
+ 156); }
+
+.content a { color: rgb(54, 115, 165); box-shadow: none; }
+
+a { color: rgb(54, 115, 165); }
+
+a:hover { color: rgb(17, 17, 17); }
+
+#TableOfContents { font-size: 0.8em; }
+
+.posts-group .post-item { border-bottom: 1px solid rgba(125, 125, 125, 0.5)=
+; }
+------MultipartBoundary--QSfeklWUi1fDDtsKQygxmInqKl2rLk3qwU77JCefmN----
+Content-Type: image/webp
+Content-Transfer-Encoding: base64
+Content-Location: https://www.vultr.com/media/banners/banner_800x418.png
+
+UklGRlKVAABXRUJQVlA4TEaVAAAvH0NoAI04TBtJkijP0DB480943uMSiOj/BORh59cv8g/9Rr4X
+LvsmN+ks1QuAXS6YXJ58GvXZdRJ715ybn6m4XDSV/qN8qjFrZj1QUfHgUq0qW5N+sj3rccEYY4hj
+DJ4vCJFF1RhNq6A5SVBxPjI6tZSoiALYbQignJxSBlAtBFCNipoTl4vqVaWtNXl8F6iqtOa8E/gu
+zleq7F3fcJBUudz5Rl1VJenq9+nmdscmVUn8nH9z2d0C3m5Ii5q+ydH8Qp100x5EObvnYfavOPf6
+DT9/0X42kaRIkiNb/r7+fyVX//7HkScYkl5/kSRJUhRBo9U7AaxV29s2D0IEITJESLrH1z3+/0Uv
+e7m36B6mexohMowQRo5sW46k3Hd/TuCS2QhX7n8fWmPz0cIFj8yZ/jty28iRqN548sZHABfKOQud
+dhrANYDr9RH08jyuAaShlx0O+zFXAG1UwPOXPVvhic/hbdhy4RpjGZPywVCvgxHtw2PQ9oJRYcun
+yifKuzXnrtyUm+F2nBzCGuOCtfcPq67jRWHL5ypsAd4t75W7clduy03mc2yop7FGPh2NKGvlOp7k
+vfKpAk7Ty1AFIHK2pHTllIXAvfQSpegmuopSRHQT+chnfrRRVHuwKKCyZa3gvfNO5x3oJbOPRGWJ
+iIgsCltVyEE2AADIQazsTihLWW2rsPW2O7OZMrrRMcnF1f3G/iAAvAIEZCMHOch1ZdOYE25Ew3DW
+yHrRezsxm7odaXSuk33ooeZDT+PBUC9jrpBTShAA3q0eIm0ActYRiMi+8dDUxZhLGw0ABADZyB6q
+/s7PF+q8ATbP/ORHt/9wBQCOVVnatHoyowmZTExMjIFB/uEBU9OYxjKm8WAjGN4bUiB85qmFrsE3
+xY7q8yM3ctocZZLNAgDAo5GsZCYzmcoKujExR3o2B2Y0gz4o4EJhRoI80nT7Xs13ar5tgy9qN+7X
+h4NfTZNTeLOWk9Yq9dpsm8q6+b/cRqnjP/U3K7M0ylt78tFL5COf0Uc+esk6oWs66C2/iwfsPcD9
+wb3A9beHb72R3kx36TrAjXQVXUU+esl4Fl1FZBFzV/0B6agYHTr0nX63253WW3Rg9NSb9WPiVlWJ
+hhlNY6GbpIkbrs8eLxB06EQf6c24GzgiUPFmv6QwlW5NTG0qIwucgAUY97YEy/UI0hQBgAp8DA1Q
+NKG33GzgUsY07hvzcMXo0R39ilI3AAANDQ3cCdq4dwQBAFrhem91s0OF2RMaeudF/HiCwIf8dktE
+ZHyKrqIqIvLRVcanHLzF0HtrA0+MaUyjh3oaF1MXYx2+X2/yP/msjVfRVfSSnZyp2BY4zrhtTGMZ
+bSxjGmtxPbAfCALPXXvzeMSrwceT/0nx5qt+c00u248Enr2WBG8CzMKgbSNJafiznm/vEETEBOCd
+KoCAtFFAAF/i/2EXgQf0g5eE5buwEhB84xJWguNExCOwesm2Afz6grGGge10BEfgE2pJVBNrKI/p
+i8bUonI8WaPpjdyYrhs/oFej2qji+00fo8pAn9U+2BKwT+cRGExKgNDhS+qgMcH4cWGqAT46A9hy
+CB3zyi2zyxu4f3IO/p4doUYAwxvw9/gx+uj/f3+lkSANuKiAUkUvF6wXUCEgVxAsVyCGoghBRYIN
+uIhOHAUMg6KEgDoqYJlYuFfEQBAUC4Kg0mwIXhRBBS5WLqggVxBQL2CKnNzf5/v5fn+/+7u/7/3d
+3z/P6TN/VXf6jNP7OMlx3OL+DtN7Sz1Tk2V74TjxZHMSk2zLMWd6nzGzuk4vd3pNTs4pm3ac7bs5
+6zpxcqbPuL1otve+q9umuZvp6TnTe6+ek3Vbdj1keu+9p5zpvaRPn0mbnsQzPWX7bppn4pne+ySZ
+09wzvc8k6/TBO+3/I7lx3vfb07+ZWVI7ILC7xIK8O5oqnne4kvcSU6U2ViZlClUKlSq7TLn9C7z3
+QAF0MuDJALwjsODOGvYSmO759fQXF7Vty+Qqup/n/aWqq7pxb4ngGXd3d8czBIK7OySMu89sw93t
+eFyPXHAIOx1cs5Ou6vr//33DFm3bQlox80BAg7J5rTUCGnOxP7io/z8mSdLrN5CRmVXZlWV0dY2n
+Ud1je7rHtm3btm3bRtt2V3VVZlWqkBnpsN/3f05VuGJUV9+zp+/29OzdnFo7LwaxyPXG2rY9nnkX
+Nctc2xyszViMZ+p+rbFi7Vizz9ztDlZje1Z9Yq+MOzPX9lWftW3byru1bRuxtm3bZi5uLGDbdkiu
+9LzfX9Uaxl7btm3btm3btm3bysnaOF7F6STD9HRV/f/rC9s/Q5K2bfv9fv+ISJQag5PjuXzdtm3b
+tn2v3mu2sWRryZdt29c1numes7urq7IqMyP+AYmR5LhNkwQ2i9A7a4A6KMrXUxez/askSc7BgOTK
+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
+
+------MultipartBoundary--QSfeklWUi1fDDtsKQygxmInqKl2rLk3qwU77JCefmN------
